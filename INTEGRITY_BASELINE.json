@@ -8427,10 +8427,9 @@
     "lake-manifest.json": "2ca9c429118b22168193b68656a18f1b7d86336fdeedebe5b48bb2591c3abe5e",
     "lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
     "libs/Shared/ByteArrayUtils.lean": "16d10d02c218754460eb13dfb48a8acb6ef69d93efac5df2364b61119f8d6846",
-    "check_solution.py": "421f2d8793c30f75a72da70fa34dce09c50bf47040980dc21b527a8031d2ee10",
-    "lean_lex.py": "836edea6fa6737077c5eb3b6d488a1289ef88b2eddfc129edb8e081ac0be8fc7",
-    "check_templates.py": "94d33e6fea975aa69c27f69ac345aa82522dd310bbabebf334df4e66c977d4b3",
-    "inventory.py": "7522f4db7c1070f45cbfd6a053b6fbb56fda76f7baec9bb12cbb2857dbb1f296",
+    "check_solution.py": "047132496e44fb8076354e68a46446b9e20db0b517a075825d64d2fcd61ab640",
+    "check_templates.py": "4b12c99860472c04d642e62695850d405ea39cee42ca0a54e65a7b08ac2c8f19",
+    "inventory.py": "05f9169c0f759e7c5c8b06da7d4aed71ae69f5f0284f3a1842ef4dd8271895dc",
     "tools/AuditDeclarations.lean": "460ad464e8805ba6045449f962b6228a11f663d7337f62509161452ed1a602b0",
     "libs/JodaTime/lakefile.toml": "20daac999b02d77d99794d1919bfbf556de96dfae21efd766b6cf8b42fea0486",
     "libs/Orjson/lakefile.toml": "1a8196b44a5566a3ea2c31d3e75a073666eb1e4990c1b02860cd6abc66e9e794",
@@ -8971,6 +8970,11 @@
     "libs/Immutables/check_hash.sh": "2bc8c89255b9e5dbe4a2ef5361e7360ebff0990b09d4ae8f83fb997fb751e2e5",
     "libs/RustItertools/check_hash.sh": "d8764a63b924054c17259829d940cb9e147390a5343f787e73b62127b8097125",
     "libs/Deprecated/check_hash.sh": "19b73bd942dd94c0ec8b0c60dc0fb6fdfea0510ccb20429f905c4b0360b78ea8",
-    "libs/Dulwich/check_hash.sh": "dbe5a4ae075daff0946570a8cff79419d2484aa478003157b13afe14d24652c7"
+    "libs/Dulwich/check_hash.sh": "dbe5a4ae075daff0946570a8cff79419d2484aa478003157b13afe14d24652c7",
+    "tools/__init__.py": "81ef5fef0fdfd1934777b606350e3d921aae021c89f6799ed6246ac138dbeae7",
+    "tools/check_solution.py": "1d16a3688e08ae81cb4281788e4dcde0d89f0dc45445b3b9325812321b68e03d",
+    "tools/check_templates.py": "93b9adda92d38a9f6ebdc1e77cf652336ee28f05eaf3c8cd8e4061878f640dd7",
+    "tools/inventory.py": "1f1fe272495c65a988f8a733c00e1e2920f922816760e097c07d7f189381827a",
+    "tools/lean_lex.py": "836edea6fa6737077c5eb3b6d488a1289ef88b2eddfc129edb8e081ac0be8fc7"
   }
 }
