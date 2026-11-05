@@ -1,0 +1,37 @@
+[meta]
+language = "rust"
+repo = "https://github.com/crossbeam-rs/crossbeam"
+package = "crossbeam"
+version = ""
+test_cmd = "cargo test"
+mutation_cmd = "cargo mutants"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "Queue.pop"
+ref = "crossbeam::Queue::pop"
+description = "Queue pop"
+
+[[functions]]
+lean = "ArrayQueue.push"
+ref = "crossbeam::ArrayQueue::push"
+description = "ArrayQueue push"
+
+[[functions]]
+lean = "Deque.pop"
+ref = "crossbeam::Deque::pop"
+description = "Deque pop"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "Queue.fifo_rel"
+chain = []
+description = "Queue.fifo"
+
+[[relational]]
+spec = "Deque.pop_lifo_rel"
+chain = []
+description = "Deque.pop lifo"
+

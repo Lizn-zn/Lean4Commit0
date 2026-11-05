@@ -1,0 +1,25 @@
+[meta]
+language = "python"
+repo = "https://github.com/lk-geimfari/mimesis"
+package = "mimesis"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=mimesis/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "genUUID"
+ref = "mimesis.gen_uuid"
+description = "genUUID"
+
+[[functions]]
+lean = "genPerson"
+ref = "mimesis.gen_person"
+description = "genPerson"
+
+[[functions]]
+lean = "genFromSchema"
+ref = "mimesis.gen_from_schema"
+description = "genFromSchema"
+

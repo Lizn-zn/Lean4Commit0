@@ -1,0 +1,32 @@
+[meta]
+language = "java"
+repo = "https://github.com/FasterXML/jackson-core"
+package = "com.fasterxml.jackson.core:jackson-core"
+version = ""
+test_cmd = "mvn test"
+mutation_cmd = ""
+
+# --- Function specs ---
+
+[[functions]]
+lean = "JsonParser.nextToken"
+ref = "jackson-core.JsonParser.nextToken"
+description = "JsonParser nextToken"
+
+[[functions]]
+lean = "TreeNode.navigate"
+ref = "jackson-core.TreeNode.navigate"
+description = "TreeNode navigate"
+
+[[functions]]
+lean = "JsonGenerator.writeStartObject"
+ref = "jackson-core.JsonGenerator.writeStartObject"
+description = "JsonGenerator writeStartObject"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "generate_parse_roundtrip_rel"
+chain = []
+description = "generate parse roundtrip"
+

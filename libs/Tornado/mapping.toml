@@ -1,0 +1,32 @@
+[meta]
+language = "python"
+repo = "https://github.com/tornadoweb/tornado"
+package = "tornado"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=tornado/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "URLRouter.findHandler"
+ref = "tornado.URLRouter.find_handler"
+description = "URLRouter findHandler"
+
+[[functions]]
+lean = "signedCookie"
+ref = "tornado.signed_cookie"
+description = "signedCookie"
+
+[[functions]]
+lean = "renderTemplate"
+ref = "tornado.render_template"
+description = "renderTemplate"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "signed_cookie_wrong_secret_rel"
+chain = []
+description = "signed cookie wrong secret"
+

@@ -1,0 +1,42 @@
+[meta]
+language = "python"
+repo = "https://github.com/grantjenks/python-sortedcontainers"
+package = "sortedcontainers"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=sortedcontainers/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "SortedList.add"
+ref = "sortedcontainers.SortedList.add"
+description = "SortedList add"
+
+[[functions]]
+lean = "SortedDict.set"
+ref = "sortedcontainers.SortedDict.set"
+description = "SortedDict set"
+
+[[functions]]
+lean = "SortedSet.add"
+ref = "sortedcontainers.SortedSet.add"
+description = "SortedSet add"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "SortedList.add_contains_rel"
+chain = []
+description = "SortedList.add contains"
+
+[[relational]]
+spec = "SortedDict.set_get_rel"
+chain = []
+description = "SortedDict.set get"
+
+[[relational]]
+spec = "SortedSet.add_contains_rel"
+chain = []
+description = "SortedSet.add contains"
+

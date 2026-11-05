@@ -1,0 +1,25 @@
+[meta]
+language = "python"
+repo = "https://github.com/sphinx-doc/sphinx"
+package = "sphinx"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=sphinx/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "parseRst"
+ref = "sphinx.parse_rst"
+description = "parseRst"
+
+[[functions]]
+lean = "resolveRef"
+ref = "sphinx.resolve_ref"
+description = "resolveRef"
+
+[[functions]]
+lean = "parseInline"
+ref = "sphinx.parse_inline"
+description = "parseInline"
+

@@ -1,0 +1,47 @@
+[meta]
+language = "python"
+repo = "https://github.com/fabric/fabric"
+package = "fabric"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=fabric/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "resolveDependencies"
+ref = "fabric.resolve_dependencies"
+description = "resolveDependencies"
+
+[[functions]]
+lean = "Config.get"
+ref = "fabric.Config.get"
+description = "Config get"
+
+[[functions]]
+lean = "ShellFragment.render"
+ref = "fabric.ShellFragment.render"
+description = "ShellFragment render"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "resolveDependencies_closed_rel"
+chain = []
+description = "resolveDependencies closed"
+
+[[relational]]
+spec = "Config.set_get_roundtrip_rel"
+chain = []
+description = "Config.set get roundtrip"
+
+[[relational]]
+spec = "Config.higher_level_overrides_rel"
+chain = []
+description = "Config.higher level overrides"
+
+[[relational]]
+spec = "ShellFragment.literal_render_rel"
+chain = []
+description = "ShellFragment.literal render"
+

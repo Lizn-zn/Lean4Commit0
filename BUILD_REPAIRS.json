@@ -1,0 +1,146 @@
+[
+  {
+    "path": "libs/Clap/Clap/GenerateHelp.lean",
+    "kind": "namespace-only helper repair and explicit call sites; algorithm retained",
+    "before_sha256": "68aed6dbd28eba5e81f72ee140baed6b62b0c7359af2c24894973402406fb9ba",
+    "after_sha256": "c47d0dde9745c3134a434f20314e6fdf4a536379cbadc6753408e86a9063322e"
+  },
+  {
+    "path": "libs/Clap/Clap/Helpers.lean",
+    "kind": "namespace-only helper repair and explicit call sites; algorithm retained",
+    "before_sha256": "a7fb3e871608a59dea4d0ba5e190059bdc8957c922533dddad38d2dea573e8f5",
+    "after_sha256": "184e3774ae8a6236c90ae276705e45c02ff650f54ecf2ee4e4b12bcb704e96a1"
+  },
+  {
+    "path": "libs/Cookiecutter/Cookiecutter/Helpers.lean",
+    "kind": "namespace-only helper repair and explicit call sites; algorithm retained",
+    "before_sha256": "d2bc08567a0cb1fc732bd73066cb041332b5e65a984d00ec0e4183a9ca85970f",
+    "after_sha256": "6e5844e987936af2c3c6aa5cc7644a2cdcfe941a3731d25eb1794ead6a716450"
+  },
+  {
+    "path": "libs/Cookiecutter/Cookiecutter/RenderTemplate.lean",
+    "kind": "namespace-only helper repair and explicit call sites; algorithm retained",
+    "before_sha256": "94f9dc7d0d764e173595d0248b1a610ac76c2b19bf4e92965f6c605d3eb9c8f5",
+    "after_sha256": "1a957e487c316b847b0df8c7148afc0cb4c9f3659b5e59dbaa7cc8f300c2fd7d"
+  },
+  {
+    "path": "libs/Cookiecutter/Cookiecutter/TokenizeTemplate.lean",
+    "kind": "namespace-only helper repair and explicit call sites; algorithm retained",
+    "before_sha256": "4715aee993b247b92dd8e3f8ee254e3443e50f3a9d592639a472f8db0366b957",
+    "after_sha256": "9d2bd45563f17db197d3a9f96c1ea276d5fb8db6aa7199aa4ed7be1eb927dd84"
+  },
+  {
+    "path": "libs/Cookiecutter/Cookiecutter/Types.lean",
+    "kind": "namespace-only helper repair and explicit call sites; algorithm retained",
+    "before_sha256": "312a8150355bb75cca6ea7a2ab0e67a481f8f078d7a0cc048407cdc61b832e64",
+    "after_sha256": "8c38bfff1b428a76310ed044ce26bc70bfe1586dc66400641e747e2c892e04ba"
+  },
+  {
+    "path": "libs/Fabric/Fabric/Helpers.lean",
+    "kind": "namespace-only helper repair and explicit call sites; algorithm retained",
+    "before_sha256": "3c7a70b60a3d13ff1588f7238875a410e1b1c34254a0cb13910b746fdd633466",
+    "after_sha256": "8443812719ef43b83523f2d6f7a3e41408224b462fd9a62f17d10e57407debde"
+  },
+  {
+    "path": "libs/Fabric/Fabric/ShellFragmentRender.lean",
+    "kind": "namespace-only helper repair and explicit call sites; algorithm retained",
+    "before_sha256": "f3b10fd22a81b977153c9d5ac9fcaf7b821c4174c65a041c9a0eb2fa780f71b1",
+    "after_sha256": "b82a4b08bd0d137f150e8a85975a39a6ca3f4fef76ee491d6ec69529fbbfb6d0"
+  },
+  {
+    "path": "libs/FilesystemSpec/FilesystemSpec/Helpers.lean",
+    "kind": "namespace-only helper repair and explicit call sites; algorithm retained",
+    "before_sha256": "dcd6a43591f68f428d3575a655cdedc0431860fffce04a3e6e9d18b4db69db4a",
+    "after_sha256": "f6b4e522a74c8eb33b9103840929899bf2785ee308c82cf711b037b797fb6e49"
+  },
+  {
+    "path": "libs/FilesystemSpec/FilesystemSpec/PathNormalize.lean",
+    "kind": "namespace-only helper repair and explicit call sites; algorithm retained",
+    "before_sha256": "1bee2d1ba74c493af46c3a305eccf6393b87731138789f9652c4cb064f6b100b",
+    "after_sha256": "6db2313aa4d35fb60cacda37b7efdd26e9943e4f62d3cb63926b7983a25736ff"
+  },
+  {
+    "path": "libs/LlHttp/LlHttp/Helpers.lean",
+    "kind": "namespace-only helper repair and explicit call sites; algorithm retained",
+    "before_sha256": "44803c221318ad31a53ef495fb4e49d6e837560bfb65e19c3c4f87401d4141c7",
+    "after_sha256": "043c3b8b31623db7e5a68abb31a77d636906a74f5021e2184a88b2dd49e14bc8"
+  },
+  {
+    "path": "libs/LlHttp/LlHttp/ParseRequest.lean",
+    "kind": "namespace-only helper repair and explicit call sites; algorithm retained",
+    "before_sha256": "151600c850369523f0357aa5ce0379e05f1c02496c1ab61a3c5fffef113a687d",
+    "after_sha256": "11cacf12546b49de4a40b3e0089fe192849fe8207944578a497b62b6e7b49ab0"
+  },
+  {
+    "path": "libs/Loguru/Loguru/Helpers.lean",
+    "kind": "namespace-only helper repair and explicit call sites; algorithm retained",
+    "before_sha256": "88e556336105a96525cc67ee42c12969380273b41802859c276f8e0154489b27",
+    "after_sha256": "15ce7aafa0693a5202034e33bd42b46cfd9f539edb7fb059f09bd38c557aee26"
+  },
+  {
+    "path": "libs/Loguru/Loguru/RenderFormat.lean",
+    "kind": "namespace-only helper repair and explicit call sites; algorithm retained",
+    "before_sha256": "961dc1cbb71db2e1b0a9f6ccc0351b7b90ceea258e57ba8d83ed7815b622cf49",
+    "after_sha256": "cb68001aa4f156d1ff047bc0c3e6160228f6959928ca6ffcf699012c7e269306"
+  },
+  {
+    "path": "libs/Picocli/Picocli/GenerateUsage.lean",
+    "kind": "namespace-only helper repair and explicit call sites; algorithm retained",
+    "before_sha256": "8825687ffe3753ab637dbd80bf0f647959c88e34ea3e155d595cc8ef1982e6ee",
+    "after_sha256": "df8dbf373f06732272ba900a89c5bbc7307b37d7be8eda21474275d1960668a8"
+  },
+  {
+    "path": "libs/Picocli/Picocli/Helpers.lean",
+    "kind": "namespace-only helper repair and explicit call sites; algorithm retained",
+    "before_sha256": "ab9c23f166a559713863cb46a1d80cc316ea36b6e9e4a1eb2bdba2d19bd9e36f",
+    "after_sha256": "77877033e7b163a2e8120148a3077e7e6c754897dab6c87c615ad97ba2ad1028"
+  },
+  {
+    "path": "libs/ProgressBar/ProgressBar/Helpers.lean",
+    "kind": "namespace-only helper repair and explicit call sites; algorithm retained",
+    "before_sha256": "95e1c541487cb639082849f1a6bbaddc90f5de62d16e4f523f6a890e000ce1ae",
+    "after_sha256": "f4d05a24df21288e72a19580b0f055d1b99950f5ee02a1f64149f0d0b9381a81"
+  },
+  {
+    "path": "libs/ProgressBar/ProgressBar/RenderProgressBar.lean",
+    "kind": "namespace-only helper repair and explicit call sites; algorithm retained",
+    "before_sha256": "54fa6aa2e74a9fe2d3dc82adf3d38a4ee1a6022f3aa983ebc0c9b84dc5709ddd",
+    "after_sha256": "353d4ef5e55c6e268e665ad626e1f400def59d7fbec42110a740cae9535fe462"
+  },
+  {
+    "path": "libs/Tabulate/Tabulate/FormatHtml.lean",
+    "kind": "namespace-only helper repair and explicit call sites; algorithm retained",
+    "before_sha256": "a7ad86cb1c6d55eb95d9c8bf6f1d9171c619ec53d31809d0668e985a165f0e1d",
+    "after_sha256": "25d8cdf13c6c3ff28c7d9ed19d8fe88063b2fb982dacd7319e54022e536da43b"
+  },
+  {
+    "path": "libs/Tabulate/Tabulate/Helpers.lean",
+    "kind": "namespace-only helper repair and explicit call sites; algorithm retained",
+    "before_sha256": "3d45f7376605e239e1ac84196bcd0c7f2a5a55d582d1dd7d042cd34f18e746ea",
+    "after_sha256": "7f5a3d3e56e093119d7812519384d371a2114d5bb3d1dc2715d05009bf497de7"
+  },
+  {
+    "path": "libs/Tabulate/Tabulate/Tabulate.lean",
+    "kind": "namespace-only helper repair and explicit call sites; algorithm retained",
+    "before_sha256": "d2fa13669de1cc41cd070a58b654f3324e0b830e8c6fab44772e94d4128a1c51",
+    "after_sha256": "eb0d730c8edfc2579594db1b9e798b3ab9bd6d538adf947767f9f46f76a5528a"
+  },
+  {
+    "path": "libs/Tornado/Tornado/Helpers.lean",
+    "kind": "namespace-only helper repair and explicit call sites; algorithm retained",
+    "before_sha256": "c3d1cfaf238efe570afef963a956ed6dae7494fcedd24101788de2d58f7aebf4",
+    "after_sha256": "69b6261564e86426f62a2743f4d4e427e58e3869fef2e3403133b686b133b582"
+  },
+  {
+    "path": "libs/Tornado/Tornado/RenderTemplate.lean",
+    "kind": "namespace-only helper repair and explicit call sites; algorithm retained",
+    "before_sha256": "693ba45595ccb7a575597a3fadce09af64421cb7acb20abf6259decb6560c967",
+    "after_sha256": "699f7afcff29b5781359b92c638f3e40463913aeacf0de285883ce81dd66c80a"
+  },
+  {
+    "path": "libs/Graphene/Graphene/Types.lean",
+    "kind": "quote reserved field identifier; Lean declaration name remains variables",
+    "before_sha256": "b9e95554a343452f5114c93f29c33061c82b9bdd89bfea0e57b567beaa18a01c",
+    "after_sha256": "483263d9725d980558e97287d95cc3d60f7c95c1df57a24132af283e056a758a"
+  }
+]

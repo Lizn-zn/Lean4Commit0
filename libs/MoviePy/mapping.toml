@@ -1,0 +1,32 @@
+[meta]
+language = "python"
+repo = "https://github.com/Zulko/moviepy"
+package = "moviepy"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=moviepy/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "Clip_subclip"
+ref = "moviepy.clip_subclip"
+description = "Clip subclip"
+
+[[functions]]
+lean = "concatenateClips"
+ref = "moviepy.concatenate_clips"
+description = "concatenateClips"
+
+[[functions]]
+lean = "Clip_speedx"
+ref = "moviepy.clip_speedx"
+description = "Clip speedx"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "Clip_speedx_identity_rel"
+chain = []
+description = "Clip speedx identity"
+

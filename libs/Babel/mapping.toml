@@ -1,0 +1,42 @@
+[meta]
+language = "unknown"
+repo = "https://github.com/python-babel/babel"
+package = "None"
+version = ""
+test_cmd = ""
+mutation_cmd = ""
+
+# --- Function specs ---
+
+[[functions]]
+lean = "parseLocale"
+ref = "parseLocale"
+description = "parseLocale"
+
+[[functions]]
+lean = "Locale.toString"
+ref = "Locale.toString"
+description = "Locale toString"
+
+[[functions]]
+lean = "formatDecimal"
+ref = "formatDecimal"
+description = "formatDecimal"
+
+[[functions]]
+lean = "formatDate"
+ref = "formatDate"
+description = "formatDate"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "parseLocale_toString_roundtrip_rel"
+chain = []
+description = "parseLocale toString roundtrip"
+
+[[relational]]
+spec = "toString_parseLocale_roundtrip_rel"
+chain = []
+description = "toString parseLocale roundtrip"
+

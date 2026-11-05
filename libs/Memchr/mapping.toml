@@ -1,0 +1,32 @@
+[meta]
+language = "rust"
+repo = "https://github.com/BurntSushi/memchr"
+package = "memchr"
+version = ""
+test_cmd = "cargo test"
+mutation_cmd = "cargo mutants"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "memchr"
+ref = "memchr::memchr"
+description = "memchr"
+
+[[functions]]
+lean = "memmem"
+ref = "memchr::memmem"
+description = "memmem"
+
+[[functions]]
+lean = "memrchr"
+ref = "memchr::memrchr"
+description = "memrchr"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "memchr_memrchr_rel"
+chain = []
+description = "memchr memrchr"
+

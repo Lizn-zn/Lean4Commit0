@@ -1,0 +1,37 @@
+[meta]
+language = "python"
+repo = "https://github.com/sybrenstuvel/python-rsa"
+package = "rsa"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=rsa/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "newkeys"
+ref = "python_rsa.newkeys"
+description = "newkeys"
+
+[[functions]]
+lean = "encrypt"
+ref = "python_rsa.encrypt"
+description = "encrypt"
+
+[[functions]]
+lean = "sign"
+ref = "python_rsa.sign"
+description = "sign"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "encrypt_decrypt_rel"
+chain = []
+description = "encrypt decrypt"
+
+[[relational]]
+spec = "sign_verify_rel"
+chain = []
+description = "sign verify"
+

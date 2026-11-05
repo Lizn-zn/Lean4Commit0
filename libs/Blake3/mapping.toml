@@ -1,0 +1,25 @@
+[meta]
+language = "rust"
+repo = "https://github.com/BLAKE3-team/BLAKE3"
+package = "blake3"
+version = ""
+test_cmd = "cargo test"
+mutation_cmd = "cargo mutants"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "g"
+ref = "blake3::g"
+description = "g"
+
+[[functions]]
+lean = "compress"
+ref = "blake3::compress"
+description = "compress"
+
+[[functions]]
+lean = "hash"
+ref = "blake3::hash"
+description = "hash"
+

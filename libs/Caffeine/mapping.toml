@@ -1,0 +1,52 @@
+[meta]
+language = "unknown"
+repo = "https://github.com/ben-manes/caffeine"
+package = "None"
+version = ""
+test_cmd = ""
+mutation_cmd = ""
+
+# --- Function specs ---
+
+[[functions]]
+lean = "FrequencySketch.frequency"
+ref = "FrequencySketch.frequency"
+description = "FrequencySketch frequency"
+
+[[functions]]
+lean = "Cache.estimatedSize"
+ref = "Cache.estimatedSize"
+description = "Cache estimatedSize"
+
+[[functions]]
+lean = "Cache.getStats"
+ref = "Cache.getStats"
+description = "Cache getStats"
+
+[[functions]]
+lean = "Cache.get"
+ref = "Cache.get"
+description = "Cache get"
+
+[[functions]]
+lean = "Cache.put"
+ref = "Cache.put"
+description = "Cache put"
+
+[[functions]]
+lean = "admit"
+ref = "admit"
+description = "admit"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "get_after_put_rel"
+chain = []
+description = "get after put"
+
+[[relational]]
+spec = "Cache.put_preserves_other_rel"
+chain = []
+description = "Cache.put preserves other"
+

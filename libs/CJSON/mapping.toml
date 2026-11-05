@@ -1,0 +1,37 @@
+[meta]
+language = "c"
+repo = "https://github.com/DaveGamble/cJSON"
+package = "cJSON"
+version = ""
+test_cmd = "make test"
+mutation_cmd = ""
+
+# --- Function specs ---
+
+[[functions]]
+lean = "parse"
+ref = "parse"
+description = "parse"
+
+[[functions]]
+lean = "print"
+ref = "print"
+description = "print"
+
+[[functions]]
+lean = "addItemToObject"
+ref = "add_item_to_object"
+description = "addItemToObject"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "parse_print_rel"
+chain = []
+description = "parse print"
+
+[[relational]]
+spec = "addItemToObject_preserves_rel"
+chain = []
+description = "addItemToObject preserves"
+

@@ -1,0 +1,25 @@
+[meta]
+language = "python"
+repo = "https://github.com/pallets/jinja"
+package = "jinja2"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=jinja2/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "evalExpr"
+ref = "jinja2.eval_expr"
+description = "evalExpr"
+
+[[functions]]
+lean = "renderNode"
+ref = "jinja2.render_node"
+description = "renderNode"
+
+[[functions]]
+lean = "escapeHtml"
+ref = "jinja2.escape_html"
+description = "escapeHtml"
+

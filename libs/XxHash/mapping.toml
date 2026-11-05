@@ -1,0 +1,32 @@
+[meta]
+language = "c"
+repo = "https://github.com/Cyan4973/xxHash"
+package = "xxHash"
+version = ""
+test_cmd = "make test"
+mutation_cmd = ""
+
+# --- Function specs ---
+
+[[functions]]
+lean = "xxh32Avalanche"
+ref = "xxh32_avalanche"
+description = "xxh32Avalanche"
+
+[[functions]]
+lean = "xxh32"
+ref = "xxh32"
+description = "xxh32"
+
+[[functions]]
+lean = "xxh64"
+ref = "xxh64"
+description = "xxh64"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "streaming_oneshot_rel"
+chain = []
+description = "streaming oneshot"
+

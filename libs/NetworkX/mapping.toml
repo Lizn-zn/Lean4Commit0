@@ -1,0 +1,40 @@
+[meta]
+language = "python"
+repo = "https://github.com/networkx/networkx"
+package = "networkx"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=networkx/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "Graph.hasNode"
+ref = "networkx.Graph.has_node"
+description = "Graph hasNode"
+
+[[functions]]
+lean = "Graph.hasEdge"
+ref = "networkx.Graph.has_edge"
+description = "Graph hasEdge"
+
+[[functions]]
+lean = "Graph.nodeList"
+ref = "networkx.Graph.node_list"
+description = "Graph nodeList"
+
+[[functions]]
+lean = "Graph.addEdge"
+ref = "networkx.Graph.add_edge"
+description = "Graph addEdge"
+
+[[functions]]
+lean = "shortestPath"
+ref = "networkx.shortest_path"
+description = "shortestPath"
+
+[[functions]]
+lean = "connectedComponents"
+ref = "networkx.connected_components"
+description = "connectedComponents"
+

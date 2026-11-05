@@ -1,0 +1,30 @@
+[meta]
+language = "python"
+repo = "https://github.com/pexpect/pexpect"
+package = "pexpect"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=pexpect/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "containsSubstr"
+ref = "pexpect.contains_substr"
+description = "containsSubstr"
+
+[[functions]]
+lean = "matchPatterns"
+ref = "pexpect.match_patterns"
+description = "matchPatterns"
+
+[[functions]]
+lean = "simulateExpect"
+ref = "pexpect.simulate_expect"
+description = "simulateExpect"
+
+[[functions]]
+lean = "processExpect"
+ref = "pexpect.process_expect"
+description = "processExpect"
+

@@ -1,0 +1,42 @@
+[meta]
+language = "java"
+repo = "https://github.com/LMAX-Exchange/disruptor"
+package = "com.lmax:disruptor"
+version = ""
+test_cmd = "mvn test"
+mutation_cmd = ""
+
+# --- Function specs ---
+
+[[functions]]
+lean = "RingBuffer.create"
+ref = "LMAX Disruptor.RingBuffer.create"
+description = "RingBuffer create"
+
+[[functions]]
+lean = "RingBuffer.publish"
+ref = "LMAX Disruptor.RingBuffer.publish"
+description = "RingBuffer publish"
+
+[[functions]]
+lean = "RingBuffer.get"
+ref = "LMAX Disruptor.RingBuffer.get"
+description = "RingBuffer get"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "publish_get_rel"
+chain = []
+description = "publish get"
+
+[[relational]]
+spec = "no_overwrite_before_consumed_rel"
+chain = []
+description = "no overwrite before consumed"
+
+[[relational]]
+spec = "create_all_none_rel"
+chain = ["RingBuffer.create", "RingBuffer.get"]
+description = "after create, all gets return none"
+

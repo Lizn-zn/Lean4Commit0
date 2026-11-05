@@ -1,0 +1,37 @@
+[meta]
+language = "python"
+repo = "https://github.com/joblib/joblib"
+package = "joblib"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=joblib/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "MemoryCache_store"
+ref = "joblib.memory_cache_store"
+description = "MemoryCache store"
+
+[[functions]]
+lean = "planExecution"
+ref = "joblib.plan_execution"
+description = "planExecution"
+
+[[functions]]
+lean = "natToHex"
+ref = "joblib.nat_to_hex"
+description = "natToHex"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "MemoryCache_store_lookup_rel"
+chain = []
+description = "MemoryCache store lookup"
+
+[[relational]]
+spec = "hex_roundtrip_rel"
+chain = []
+description = "hex roundtrip"
+

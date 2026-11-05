@@ -1,0 +1,25 @@
+[meta]
+language = "rust"
+repo = "https://github.com/pest-parser/pest"
+package = "pest"
+version = ""
+test_cmd = "cargo test"
+mutation_cmd = "cargo mutants"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "matchExpr"
+ref = "pest::match_expr"
+description = "matchExpr"
+
+[[functions]]
+lean = "parse"
+ref = "pest::parse"
+description = "parse"
+
+[[functions]]
+lean = "ParseNode_tokens"
+ref = "pest::parse_node_tokens"
+description = "ParseNode tokens"
+

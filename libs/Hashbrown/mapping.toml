@@ -1,0 +1,37 @@
+[meta]
+language = "rust"
+repo = "https://github.com/rust-lang/hashbrown"
+package = "hashbrown"
+version = ""
+test_cmd = "cargo test"
+mutation_cmd = "cargo mutants"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "HashMap.insert"
+ref = "hashbrown::HashMap::insert"
+description = "HashMap insert"
+
+[[functions]]
+lean = "HashMap.get"
+ref = "hashbrown::HashMap::get"
+description = "HashMap get"
+
+[[functions]]
+lean = "HashSet.difference"
+ref = "hashbrown::HashSet::difference"
+description = "HashSet difference"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "HashMap.get_insert_rel"
+chain = []
+description = "HashMap.get insert"
+
+[[relational]]
+spec = "HashSet.difference_contains_rel"
+chain = []
+description = "HashSet.difference contains"
+

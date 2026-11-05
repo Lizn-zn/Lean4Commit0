@@ -1,0 +1,32 @@
+[meta]
+language = "rust"
+repo = "https://github.com/serde-rs/serde"
+package = "serde"
+version = ""
+test_cmd = "cargo test"
+mutation_cmd = "cargo mutants"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "serializeOption"
+ref = "serde::serialize_option"
+description = "serializeOption"
+
+[[functions]]
+lean = "deserializeOption"
+ref = "serde::deserialize_option"
+description = "deserializeOption"
+
+[[functions]]
+lean = "renameField"
+ref = "serde::rename_field"
+description = "renameField"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "roundtrip_rel"
+chain = []
+description = "roundtrip"
+

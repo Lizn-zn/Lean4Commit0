@@ -1,0 +1,32 @@
+[meta]
+language = "python"
+repo = "https://github.com/dulwich/dulwich"
+package = "dulwich"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=dulwich/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "serializeCommit"
+ref = "dulwich.serialize_commit"
+description = "serializeCommit"
+
+[[functions]]
+lean = "deserializeCommit"
+ref = "dulwich.deserialize_commit"
+description = "deserializeCommit"
+
+[[functions]]
+lean = "resolveRef"
+ref = "dulwich.resolve_ref"
+description = "resolveRef"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "commit_roundtrip_rel"
+chain = []
+description = "commit roundtrip"
+

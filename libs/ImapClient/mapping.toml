@@ -1,0 +1,42 @@
+[meta]
+language = "python"
+repo = "https://github.com/mjs/imapclient"
+package = "imapclient"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=imapclient/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "ImapCommand.render"
+ref = "imapclient.ImapCommand.render"
+description = "ImapCommand render"
+
+[[functions]]
+lean = "addFlag"
+ref = "imapclient.add_flag"
+description = "addFlag"
+
+[[functions]]
+lean = "removeFlag"
+ref = "imapclient.remove_flag"
+description = "removeFlag"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "hasFlag_after_addFlag_rel"
+chain = []
+description = "hasFlag after addFlag"
+
+[[relational]]
+spec = "hasFlag_after_removeFlag_rel"
+chain = []
+description = "hasFlag after removeFlag"
+
+[[relational]]
+spec = "addFlag_removeFlag_cancel_rel"
+chain = []
+description = "addFlag removeFlag cancel"
+

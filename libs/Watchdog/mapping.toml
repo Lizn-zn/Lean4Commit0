@@ -1,0 +1,37 @@
+[meta]
+language = "python"
+repo = "https://github.com/gorakhargosh/watchdog"
+package = "watchdog"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=watchdog/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "diff"
+ref = "watchdog.diff"
+description = "diff"
+
+[[functions]]
+lean = "filterEvents"
+ref = "watchdog.filter_events"
+description = "filterEvents"
+
+[[functions]]
+lean = "coalesceEvents"
+ref = "watchdog.coalesce_events"
+description = "coalesceEvents"
+
+[[functions]]
+lean = "diff_self"
+ref = "watchdog.diff_self"
+description = "diff self"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "diff_symmetric_rel"
+chain = []
+description = "diff symmetric"
+

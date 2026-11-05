@@ -1,0 +1,47 @@
+[meta]
+language = "python"
+repo = "https://github.com/arrow-py/arrow"
+package = "arrow"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=arrow/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "fromTimestamp"
+ref = "arrow.from_timestamp"
+description = "fromTimestamp"
+
+[[functions]]
+lean = "ArrowDateTime.shift"
+ref = "arrow.ArrowDateTime.shift"
+description = "ArrowDateTime shift"
+
+[[functions]]
+lean = "ArrowDateTime.isoformat"
+ref = "arrow.ArrowDateTime.isoformat"
+description = "ArrowDateTime isoformat"
+
+[[functions]]
+lean = "ArrowDateTime.timestamp"
+ref = "arrow.ArrowDateTime.timestamp"
+description = "ArrowDateTime timestamp"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "shift_zero_rel"
+chain = []
+description = "shift zero"
+
+[[relational]]
+spec = "shift_inverse_rel"
+chain = []
+description = "shift inverse"
+
+[[relational]]
+spec = "timestamp_fromTimestamp_roundtrip_rel"
+chain = []
+description = "timestamp fromTimestamp roundtrip"
+

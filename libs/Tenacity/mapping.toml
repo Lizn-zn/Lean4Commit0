@@ -1,0 +1,47 @@
+[meta]
+language = "python"
+repo = "https://github.com/jd/tenacity"
+package = "tenacity"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=tenacity/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "computeWait"
+ref = "tenacity.compute_wait"
+description = "computeWait"
+
+[[functions]]
+lean = "shouldStop"
+ref = "tenacity.should_stop"
+description = "shouldStop"
+
+[[functions]]
+lean = "shouldStop_afterDelay"
+ref = "tenacity.should_stop_after_delay"
+description = "shouldStop afterDelay"
+
+[[functions]]
+lean = "shouldRetry"
+ref = "tenacity.should_retry"
+description = "shouldRetry"
+
+[[functions]]
+lean = "computeExponentialWait"
+ref = "tenacity.compute_exponential_wait"
+description = "computeExponentialWait"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "shouldStop_never_rel"
+chain = []
+description = "shouldStop never"
+
+[[relational]]
+spec = "exponential_wait_increases_rel"
+chain = []
+description = "exponential wait increases"
+

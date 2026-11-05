@@ -1,0 +1,32 @@
+[meta]
+language = "python"
+repo = "https://github.com/pallets/flask"
+package = "flask"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=flask/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "Router.match_prefix"
+ref = "flask.Router.match_prefix"
+description = "Router match prefix"
+
+[[functions]]
+lean = "Session.set"
+ref = "flask.Session.set"
+description = "Session set"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "Session.set_get_roundtrip_rel"
+chain = []
+description = "Session.set get roundtrip"
+
+[[relational]]
+spec = "Session.set_preserves_other_rel"
+chain = []
+description = "Session.set preserves other"
+

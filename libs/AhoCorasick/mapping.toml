@@ -1,0 +1,24 @@
+[meta]
+language = "rust"
+repo = "https://github.com/BurntSushi/aho-corasick"
+package = "aho-corasick"
+version = ""
+test_cmd = "cargo test"
+mutation_cmd = "cargo mutants"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "build"
+ref = "AhoCorasick::new / AhoCorasickBuilder::build"
+description = "build automaton"
+
+[[functions]]
+lean = "findAll"
+ref = "AhoCorasick::find_iter"
+description = "find all non-overlapping matches"
+
+[[functions]]
+lean = "replaceAll"
+ref = "AhoCorasick::replace_all"
+description = "replace all matches"

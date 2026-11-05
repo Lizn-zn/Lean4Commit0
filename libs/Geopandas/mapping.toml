@@ -1,0 +1,36 @@
+[meta]
+language = "python"
+repo = "https://github.com/geopandas/geopandas"
+package = "geopandas"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=geopandas/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "area"
+ref = "geopandas.area"
+description = "area"
+
+[[functions]]
+lean = "bounds"
+ref = "geopandas.bounds"
+description = "bounds"
+
+[[functions]]
+lean = "spatialPredicates"
+ref = "geopandas.spatial_predicates"
+description = "spatialPredicates"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "contains_area_rel"
+chain = ["contains", "area"]
+description = "contains implies area containment"
+
+[[relational]]
+spec = "area_bounds_rel"
+chain = ["area", "bounds"]
+description = "positive area implies bounds exist"

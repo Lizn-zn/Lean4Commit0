@@ -1,0 +1,442 @@
+{
+  "revision_id": "release-candidate-v3",
+  "hole_region_counts": {
+    "provided": 0,
+    "editable": 1032,
+    "unmarked": 0
+  },
+  "libraries": {
+    "AhoCorasick": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Arrow": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Attrs": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Babel": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "BitString": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Blake3": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Boltons": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Bytes": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "CJSON": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "CacheTools": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Caffeine": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Chardet": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Clap": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Click": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "CommonsLang": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Cookiecutter": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Crossbeam": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "DashMap": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Deprecated": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Disruptor": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "DnsPython": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Dulwich": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Fabric": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "FastApi": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "FilesystemSpec": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Flask": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "FlatBuffers": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Geopandas": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Graphene": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Gson": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Hashbrown": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "ImapClient": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "ImbalancedLearn": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Immutables": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "JCTools": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "JacksonCore": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Jedi": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Jinja": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Joblib": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "JodaTime": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Jsoup": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Kryo": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "LlHttp": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Logos": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Loguru": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Lz4": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Marshmallow": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Memchr": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "MicroEcc": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Mimesis": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "MiniTorch": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Miniz": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "MoreItertools": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "MoviePy": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "NetworkX": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Nom": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Orjson": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Paramiko": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Parsel": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Pest": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Pexpect": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Picocli": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Portalocker": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "ProgressBar": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "PromptToolkit": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "PyBoy": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "PyJWT": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Pydantic": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Pylint": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Pypdf": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Pytest": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "PythonRsa": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "QrCodeGen": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "RapidJson": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Rayon": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Re2": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Regex": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Requests": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "RustItertools": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Schedule": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Scrapy": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Seaborn": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Serde": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "SerdeJson": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "SimPy": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "SmallVec": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "SortedContainers": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Sphinx": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "SqlParse": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Statsmodels": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Stb": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Tabulate": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Tenacity": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "TinyDB": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "TinyExpr": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "TlsLite": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Toolz": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Tornado": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Utf8Proc": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Virtualenv": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Voluptuous": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Watchdog": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "WcWidth": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Web3": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Xarray": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "XxHash": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "YyJson": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    },
+    "Zstd": {
+      "provided_holes": [],
+      "unmarked_holes": []
+    }
+  }
+}

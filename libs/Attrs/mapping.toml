@@ -1,0 +1,37 @@
+[meta]
+language = "python"
+repo = "https://github.com/python-attrs/attrs"
+package = "attrs"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=attrs/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "ClassDef.create"
+ref = "attrs.ClassDef.create"
+description = "ClassDef create"
+
+[[functions]]
+lean = "Instance.get"
+ref = "attrs.Instance.get"
+description = "Instance get"
+
+[[functions]]
+lean = "Instance.evolve"
+ref = "attrs.Instance.evolve"
+description = "Instance evolve"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "get_after_create_rel"
+chain = []
+description = "get after create"
+
+[[relational]]
+spec = "Instance.evolve_empty_rel"
+chain = []
+description = "Instance.evolve empty"
+

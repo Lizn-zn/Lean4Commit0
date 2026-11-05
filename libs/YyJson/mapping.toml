@@ -1,0 +1,32 @@
+[meta]
+language = "c"
+repo = "https://github.com/ibireme/yyjson"
+package = "yyjson"
+version = ""
+test_cmd = "make test"
+mutation_cmd = ""
+
+# --- Function specs ---
+
+[[functions]]
+lean = "read"
+ref = "read"
+description = "read"
+
+[[functions]]
+lean = "write"
+ref = "write"
+description = "write"
+
+[[functions]]
+lean = "Val.objGet"
+ref = "val_obj_get"
+description = "Val objGet"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "read_write_rel"
+chain = []
+description = "read write"
+

@@ -1,0 +1,25 @@
+[meta]
+language = "python"
+repo = "https://github.com/py-pdf/pypdf"
+package = "pypdf"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=pypdf/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "extractTextFromOps"
+ref = "pypdf.extract_text_from_ops"
+description = "extractTextFromOps"
+
+[[functions]]
+lean = "Page.merge"
+ref = "pypdf.Page.merge"
+description = "Page merge"
+
+[[functions]]
+lean = "parseRectangle"
+ref = "pypdf.parse_rectangle"
+description = "parseRectangle"
+

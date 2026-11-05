@@ -1,0 +1,35 @@
+[meta]
+language = "python"
+repo = "https://github.com/astanin/python-tabulate"
+package = "tabulate"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=tabulate/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "tabulate"
+ref = "tabulate.tabulate"
+description = "tabulate"
+
+[[functions]]
+lean = "computeColumnWidths"
+ref = "tabulate.compute_column_widths"
+description = "computeColumnWidths"
+
+[[functions]]
+lean = "formatHtml"
+ref = "tabulate.format_html"
+description = "formatHtml"
+
+[[functions]]
+lean = "tabulate_grid"
+ref = "tabulate.tabulate_grid"
+description = "tabulate grid"
+
+[[functions]]
+lean = "computeColumnWidths_length"
+ref = "tabulate.compute_column_widths_length"
+description = "computeColumnWidths length"
+

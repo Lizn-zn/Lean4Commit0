@@ -1,0 +1,32 @@
+[meta]
+language = "java"
+repo = "https://github.com/jhy/jsoup"
+package = "org.jsoup:jsoup"
+version = ""
+test_cmd = "mvn test"
+mutation_cmd = ""
+
+# --- Function specs ---
+
+[[functions]]
+lean = "matchesSelector"
+ref = "jsoup.matchesSelector"
+description = "matchesSelector"
+
+[[functions]]
+lean = "append"
+ref = "jsoup.append"
+description = "append"
+
+[[functions]]
+lean = "clean"
+ref = "jsoup.clean"
+description = "clean"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "append_increases_children_rel"
+chain = []
+description = "append increases children"
+

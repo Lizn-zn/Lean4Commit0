@@ -1,0 +1,42 @@
+[meta]
+language = "python"
+repo = "https://github.com/tkem/cachetools"
+package = "cachetools"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=cachetools/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "LRUCache.set"
+ref = "cachetools.LRUCache.set"
+description = "LRUCache set"
+
+[[functions]]
+lean = "TTLCache.set"
+ref = "cachetools.TTLCache.set"
+description = "TTLCache set"
+
+[[functions]]
+lean = "TTLCache.expire"
+ref = "cachetools.TTLCache.expire"
+description = "TTLCache expire"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "LRUCache.get_after_set_rel"
+chain = []
+description = "LRUCache.get after set"
+
+[[relational]]
+spec = "TTLCache.get_after_set_rel"
+chain = []
+description = "TTLCache.get after set"
+
+[[relational]]
+spec = "TTLCache.get_expired_rel"
+chain = []
+description = "TTLCache.get expired"
+

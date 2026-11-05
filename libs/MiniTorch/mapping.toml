@@ -1,0 +1,37 @@
+[meta]
+language = "python"
+repo = "https://github.com/minitorch/minitorch"
+package = "minitorch"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=minitorch/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "positionToIndex"
+ref = "minitorch.position_to_index"
+description = "positionToIndex"
+
+[[functions]]
+lean = "Tensor.map"
+ref = "minitorch.Tensor.map"
+description = "Tensor map"
+
+[[functions]]
+lean = "SGD.step"
+ref = "minitorch.SGD.step"
+description = "SGD step"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "pos_idx_roundtrip_rel"
+chain = []
+description = "pos idx roundtrip"
+
+[[relational]]
+spec = "idx_pos_roundtrip_rel"
+chain = []
+description = "idx pos roundtrip"
+

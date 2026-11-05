@@ -1,0 +1,42 @@
+[meta]
+language = "python"
+repo = "https://github.com/marshmallow-code/marshmallow"
+package = "marshmallow"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=marshmallow/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "Schema.dump"
+ref = "marshmallow.Schema.dump"
+description = "Schema dump"
+
+[[functions]]
+lean = "Schema.load"
+ref = "marshmallow.Schema.load"
+description = "Schema load"
+
+[[functions]]
+lean = "Schema.validate"
+ref = "marshmallow.Schema.validate"
+description = "Schema validate"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "dump_load_roundtrip_rel"
+chain = []
+description = "dump load roundtrip"
+
+[[relational]]
+spec = "load_dump_roundtrip_rel"
+chain = []
+description = "load dump roundtrip"
+
+[[relational]]
+spec = "missing_optional_default_rel"
+chain = []
+description = "missing optional default"
+

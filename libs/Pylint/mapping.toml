@@ -1,0 +1,25 @@
+[meta]
+language = "python"
+repo = "https://github.com/pylint-dev/pylint"
+package = "pylint"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=pylint/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "checkLineLength"
+ref = "pylint.check_line_length"
+description = "checkLineLength"
+
+[[functions]]
+lean = "runChecker"
+ref = "pylint.run_checker"
+description = "runChecker"
+
+[[functions]]
+lean = "computeScore"
+ref = "pylint.compute_score"
+description = "computeScore"
+

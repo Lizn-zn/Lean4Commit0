@@ -1,0 +1,37 @@
+[meta]
+language = "python"
+repo = "https://github.com/scikit-learn-contrib/imbalanced-learn"
+package = "imbalanced-learn"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=imbalanced_learn/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "classDistribution"
+ref = "imbalanced_learn.class_distribution"
+description = "classDistribution"
+
+[[functions]]
+lean = "randomOversampling"
+ref = "imbalanced_learn.random_oversampling"
+description = "randomOversampling"
+
+[[functions]]
+lean = "detectTomekLinks"
+ref = "imbalanced_learn.detect_tomek_links"
+description = "detectTomekLinks"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "classDistribution_complete_rel"
+chain = []
+description = "classDistribution complete"
+
+[[relational]]
+spec = "randomOversampling_preserves_features_rel"
+chain = []
+description = "randomOversampling preserves features"
+

@@ -1,0 +1,25 @@
+[meta]
+language = "python"
+repo = "https://github.com/graphql-python/graphene"
+package = "graphene"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=graphene/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "validateDocument"
+ref = "graphene.validate_document"
+description = "validateDocument"
+
+[[functions]]
+lean = "executeDocument"
+ref = "graphene.execute_document"
+description = "executeDocument"
+
+[[functions]]
+lean = "introspection"
+ref = "graphene.introspection"
+description = "introspection"
+

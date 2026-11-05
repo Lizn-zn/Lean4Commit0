@@ -1,0 +1,42 @@
+[meta]
+language = "java"
+repo = "https://github.com/JodaOrg/joda-time"
+package = "joda-time:joda-time"
+version = ""
+test_cmd = "mvn test"
+mutation_cmd = ""
+
+# --- Function specs ---
+
+[[functions]]
+lean = "LocalDate.plusDays"
+ref = "joda-time.LocalDate.plusDays"
+description = "LocalDate plusDays"
+
+[[functions]]
+lean = "lengthOfMonth"
+ref = "joda-time.lengthOfMonth"
+description = "lengthOfMonth"
+
+[[functions]]
+lean = "daysBetween"
+ref = "joda-time.daysBetween"
+description = "daysBetween"
+
+[[functions]]
+lean = "daysBetween_antisym"
+ref = "joda-time.daysBetween_antisym"
+description = "daysBetween antisym"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "plusDays_minusDays_cancel_rel"
+chain = []
+description = "plusDays minusDays cancel"
+
+[[relational]]
+spec = "dayOfWeek_period_7_rel"
+chain = []
+description = "dayOfWeek period 7"
+

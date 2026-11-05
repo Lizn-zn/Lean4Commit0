@@ -1,0 +1,458 @@
+name = "Lean4Commit0"
+version = "0.1.0"
+defaultTargets = ["Lean4Commit0"]
+
+[[lean_lib]]
+name = "Lean4Commit0"
+roots = ["Lean4Commit0"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "8f9d9cff6bd728b17a24e163c9402775d9e6a365"
+
+# Shared utilities
+[[lean_lib]]
+name = "ByteArrayUtils"
+srcDir = "libs/Shared"
+
+# Individual library specs
+[[lean_lib]]
+name = "WcWidth"
+srcDir = "libs/WcWidth"
+
+[[lean_lib]]
+name = "PythonRsa"
+srcDir = "libs/PythonRsa"
+
+[[lean_lib]]
+name = "CacheTools"
+srcDir = "libs/CacheTools"
+
+[[lean_lib]]
+name = "Voluptuous"
+srcDir = "libs/Voluptuous"
+
+[[lean_lib]]
+name = "SimPy"
+srcDir = "libs/SimPy"
+
+[[lean_lib]]
+name = "MiniTorch"
+srcDir = "libs/MiniTorch"
+
+[[lean_lib]]
+name = "TinyDB"
+srcDir = "libs/TinyDB"
+
+[[lean_lib]]
+name = "PyJWT"
+srcDir = "libs/PyJWT"
+
+[[lean_lib]]
+name = "SqlParse"
+srcDir = "libs/SqlParse"
+
+[[lean_lib]]
+name = "MoreItertools"
+srcDir = "libs/MoreItertools"
+
+[[lean_lib]]
+name = "BitString"
+srcDir = "libs/BitString"
+
+[[lean_lib]]
+name = "Chardet"
+srcDir = "libs/Chardet"
+
+[[lean_lib]]
+name = "NetworkX"
+srcDir = "libs/NetworkX"
+
+[[lean_lib]]
+name = "Marshmallow"
+srcDir = "libs/Marshmallow"
+
+[[lean_lib]]
+name = "Deprecated"
+srcDir = "libs/Deprecated"
+
+[[lean_lib]]
+name = "Portalocker"
+srcDir = "libs/Portalocker"
+
+[[lean_lib]]
+name = "Attrs"
+srcDir = "libs/Attrs"
+
+[[lean_lib]]
+name = "Pydantic"
+srcDir = "libs/Pydantic"
+
+[[lean_lib]]
+name = "Flask"
+srcDir = "libs/Flask"
+
+[[lean_lib]]
+name = "FastApi"
+srcDir = "libs/FastApi"
+
+[[lean_lib]]
+name = "Tornado"
+srcDir = "libs/Tornado"
+
+[[lean_lib]]
+name = "Requests"
+srcDir = "libs/Requests"
+
+[[lean_lib]]
+name = "Scrapy"
+srcDir = "libs/Scrapy"
+
+[[lean_lib]]
+name = "Jinja"
+srcDir = "libs/Jinja"
+
+[[lean_lib]]
+name = "DnsPython"
+srcDir = "libs/DnsPython"
+
+[[lean_lib]]
+name = "ImapClient"
+srcDir = "libs/ImapClient"
+
+[[lean_lib]]
+name = "Paramiko"
+srcDir = "libs/Paramiko"
+
+[[lean_lib]]
+name = "Fabric"
+srcDir = "libs/Fabric"
+
+[[lean_lib]]
+name = "TlsLite"
+srcDir = "libs/TlsLite"
+
+[[lean_lib]]
+name = "Web3"
+srcDir = "libs/Web3"
+
+[[lean_lib]]
+name = "Graphene"
+srcDir = "libs/Graphene"
+
+[[lean_lib]]
+name = "PromptToolkit"
+srcDir = "libs/PromptToolkit"
+
+[[lean_lib]]
+name = "Parsel"
+srcDir = "libs/Parsel"
+
+[[lean_lib]]
+name = "ProgressBar"
+srcDir = "libs/ProgressBar"
+
+[[lean_lib]]
+name = "Click"
+srcDir = "libs/Click"
+
+[[lean_lib]]
+name = "Babel"
+srcDir = "libs/Babel"
+
+[[lean_lib]]
+name = "Loguru"
+srcDir = "libs/Loguru"
+
+[[lean_lib]]
+name = "Pypdf"
+srcDir = "libs/Pypdf"
+
+[[lean_lib]]
+name = "Mimesis"
+srcDir = "libs/Mimesis"
+
+[[lean_lib]]
+name = "Cookiecutter"
+srcDir = "libs/Cookiecutter"
+
+[[lean_lib]]
+name = "Dulwich"
+srcDir = "libs/Dulwich"
+
+[[lean_lib]]
+name = "FilesystemSpec"
+srcDir = "libs/FilesystemSpec"
+
+[[lean_lib]]
+name = "Pytest"
+srcDir = "libs/Pytest"
+
+[[lean_lib]]
+name = "Pylint"
+srcDir = "libs/Pylint"
+
+[[lean_lib]]
+name = "Sphinx"
+srcDir = "libs/Sphinx"
+
+[[lean_lib]]
+name = "Jedi"
+srcDir = "libs/Jedi"
+
+[[lean_lib]]
+name = "Virtualenv"
+srcDir = "libs/Virtualenv"
+
+[[lean_lib]]
+name = "Pexpect"
+srcDir = "libs/Pexpect"
+
+[[lean_lib]]
+name = "Seaborn"
+srcDir = "libs/Seaborn"
+
+[[lean_lib]]
+name = "Statsmodels"
+srcDir = "libs/Statsmodels"
+
+[[lean_lib]]
+name = "Geopandas"
+srcDir = "libs/Geopandas"
+
+[[lean_lib]]
+name = "ImbalancedLearn"
+srcDir = "libs/ImbalancedLearn"
+
+[[lean_lib]]
+name = "Xarray"
+srcDir = "libs/Xarray"
+
+[[lean_lib]]
+name = "Joblib"
+srcDir = "libs/Joblib"
+
+[[lean_lib]]
+name = "MoviePy"
+srcDir = "libs/MoviePy"
+
+[[lean_lib]]
+name = "PyBoy"
+srcDir = "libs/PyBoy"
+
+# ===== New libraries (Rust ports) =====
+
+[[lean_lib]]
+name = "Serde"
+srcDir = "libs/Serde"
+
+[[lean_lib]]
+name = "SerdeJson"
+srcDir = "libs/SerdeJson"
+
+[[lean_lib]]
+name = "Nom"
+srcDir = "libs/Nom"
+
+[[lean_lib]]
+name = "Pest"
+srcDir = "libs/Pest"
+
+[[lean_lib]]
+name = "Logos"
+srcDir = "libs/Logos"
+
+[[lean_lib]]
+name = "Regex"
+srcDir = "libs/Regex"
+
+[[lean_lib]]
+name = "RustItertools"
+srcDir = "libs/RustItertools"
+
+[[lean_lib]]
+name = "Hashbrown"
+srcDir = "libs/Hashbrown"
+
+[[lean_lib]]
+name = "Bytes"
+srcDir = "libs/Bytes"
+
+[[lean_lib]]
+name = "SmallVec"
+srcDir = "libs/SmallVec"
+
+[[lean_lib]]
+name = "Memchr"
+srcDir = "libs/Memchr"
+
+[[lean_lib]]
+name = "AhoCorasick"
+srcDir = "libs/AhoCorasick"
+
+[[lean_lib]]
+name = "Crossbeam"
+srcDir = "libs/Crossbeam"
+
+[[lean_lib]]
+name = "Rayon"
+srcDir = "libs/Rayon"
+
+[[lean_lib]]
+name = "DashMap"
+srcDir = "libs/DashMap"
+
+[[lean_lib]]
+name = "Blake3"
+srcDir = "libs/Blake3"
+
+[[lean_lib]]
+name = "Clap"
+srcDir = "libs/Clap"
+
+# ===== New libraries (C/C++ ports) =====
+
+[[lean_lib]]
+name = "CJSON"
+srcDir = "libs/CJSON"
+
+[[lean_lib]]
+name = "YyJson"
+srcDir = "libs/YyJson"
+
+[[lean_lib]]
+name = "RapidJson"
+srcDir = "libs/RapidJson"
+
+[[lean_lib]]
+name = "FlatBuffers"
+srcDir = "libs/FlatBuffers"
+
+[[lean_lib]]
+name = "LlHttp"
+srcDir = "libs/LlHttp"
+
+[[lean_lib]]
+name = "TinyExpr"
+srcDir = "libs/TinyExpr"
+
+[[lean_lib]]
+name = "Lz4"
+srcDir = "libs/Lz4"
+
+[[lean_lib]]
+name = "XxHash"
+srcDir = "libs/XxHash"
+
+[[lean_lib]]
+name = "Zstd"
+srcDir = "libs/Zstd"
+
+[[lean_lib]]
+name = "Miniz"
+srcDir = "libs/Miniz"
+
+[[lean_lib]]
+name = "MicroEcc"
+srcDir = "libs/MicroEcc"
+
+[[lean_lib]]
+name = "Utf8Proc"
+srcDir = "libs/Utf8Proc"
+
+[[lean_lib]]
+name = "QrCodeGen"
+srcDir = "libs/QrCodeGen"
+
+[[lean_lib]]
+name = "Stb"
+srcDir = "libs/Stb"
+
+[[lean_lib]]
+name = "Re2"
+srcDir = "libs/Re2"
+
+# ===== New libraries (Java ports) =====
+
+[[lean_lib]]
+name = "Gson"
+srcDir = "libs/Gson"
+
+[[lean_lib]]
+name = "Caffeine"
+srcDir = "libs/Caffeine"
+
+[[lean_lib]]
+name = "Jsoup"
+srcDir = "libs/Jsoup"
+
+[[lean_lib]]
+name = "Disruptor"
+srcDir = "libs/Disruptor"
+
+[[lean_lib]]
+name = "Kryo"
+srcDir = "libs/Kryo"
+
+[[lean_lib]]
+name = "Picocli"
+srcDir = "libs/Picocli"
+
+[[lean_lib]]
+name = "JodaTime"
+srcDir = "libs/JodaTime"
+
+[[lean_lib]]
+name = "JCTools"
+srcDir = "libs/JCTools"
+
+[[lean_lib]]
+name = "Immutables"
+srcDir = "libs/Immutables"
+
+[[lean_lib]]
+name = "CommonsLang"
+srcDir = "libs/CommonsLang"
+
+[[lean_lib]]
+name = "JacksonCore"
+srcDir = "libs/JacksonCore"
+
+# ===== New libraries (Python ports) =====
+
+[[lean_lib]]
+name = "Orjson"
+srcDir = "libs/Orjson"
+
+[[lean_lib]]
+name = "Schedule"
+srcDir = "libs/Schedule"
+
+[[lean_lib]]
+name = "Arrow"
+srcDir = "libs/Arrow"
+
+[[lean_lib]]
+name = "Tenacity"
+srcDir = "libs/Tenacity"
+
+[[lean_lib]]
+name = "Watchdog"
+srcDir = "libs/Watchdog"
+
+[[lean_lib]]
+name = "Boltons"
+srcDir = "libs/Boltons"
+
+[[lean_lib]]
+name = "Toolz"
+srcDir = "libs/Toolz"
+
+[[lean_lib]]
+name = "SortedContainers"
+srcDir = "libs/SortedContainers"
+
+[[lean_lib]]
+name = "Tabulate"
+srcDir = "libs/Tabulate"

@@ -1,0 +1,32 @@
+[meta]
+language = "java"
+repo = "https://github.com/EsotericSoftware/kryo"
+package = "com.esotericsoftware:kryo"
+version = ""
+test_cmd = "mvn test"
+mutation_cmd = ""
+
+# --- Function specs ---
+
+[[functions]]
+lean = "writeVarInt"
+ref = "Kryo.writeVarInt"
+description = "writeVarInt"
+
+[[functions]]
+lean = "serialize"
+ref = "Kryo.serialize"
+description = "serialize"
+
+[[functions]]
+lean = "deserialize"
+ref = "Kryo.deserialize"
+description = "deserialize"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "serialize_deserialize_roundtrip_rel"
+chain = []
+description = "serialize deserialize roundtrip"
+

@@ -1,0 +1,32 @@
+[meta]
+language = "cpp"
+repo = "https://github.com/Tencent/rapidjson"
+package = "rapidjson"
+version = ""
+test_cmd = "make test"
+mutation_cmd = ""
+
+# --- Function specs ---
+
+[[functions]]
+lean = "parse"
+ref = "parse"
+description = "parse"
+
+[[functions]]
+lean = "serialize"
+ref = "serialize"
+description = "serialize"
+
+[[functions]]
+lean = "validate"
+ref = "validate"
+description = "validate"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "parse_serialize_rel"
+chain = []
+description = "parse serialize"
+

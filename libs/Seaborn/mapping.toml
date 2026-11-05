@@ -1,0 +1,25 @@
+[meta]
+language = "python"
+repo = "https://github.com/mwaskom/seaborn"
+package = "seaborn"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=seaborn/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "histBinsEqualWidth"
+ref = "seaborn.hist_bins_equal_width"
+description = "histBinsEqualWidth"
+
+[[functions]]
+lean = "linearRegressionFit"
+ref = "seaborn.linear_regression_fit"
+description = "linearRegressionFit"
+
+[[functions]]
+lean = "kde"
+ref = "seaborn.kde"
+description = "kde"
+

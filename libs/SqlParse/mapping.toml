@@ -1,0 +1,35 @@
+[meta]
+language = "python"
+repo = "https://github.com/andialbrecht/sqlparse"
+package = "sqlparse"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=sqlparse/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "tokenize"
+ref = "sqlparse.tokenize"
+description = "tokenize"
+
+[[functions]]
+lean = "parse"
+ref = "sqlparse.parse"
+description = "parse"
+
+[[functions]]
+lean = "format"
+ref = "sqlparse.format"
+description = "format"
+
+[[functions]]
+lean = "tokenize_parse_consistent"
+ref = "sqlparse.tokenize_parse_consistent"
+description = "tokenize parse consistent"
+
+[[functions]]
+lean = "format_identity"
+ref = "sqlparse.format_identity"
+description = "format identity"
+

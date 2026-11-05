@@ -1,0 +1,30 @@
+[meta]
+language = "python"
+repo = "https://github.com/pydantic/pydantic"
+package = "pydantic"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=pydantic/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "ModelInstance.get"
+ref = "pydantic.ModelInstance.get"
+description = "ModelInstance get"
+
+[[functions]]
+lean = "ModelDef.validate"
+ref = "pydantic.ModelDef.validate"
+description = "ModelDef validate"
+
+[[functions]]
+lean = "validateType"
+ref = "pydantic.validate_type"
+description = "validateType"
+
+[[functions]]
+lean = "applyConstraints"
+ref = "pydantic.apply_constraints"
+description = "applyConstraints"
+

@@ -1,0 +1,57 @@
+[meta]
+language = "python"
+repo = "https://github.com/pydata/xarray"
+package = "xarray"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=xarray/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "DataArray.basic"
+ref = "xarray.DataArray.basic"
+description = "DataArray basic"
+
+[[functions]]
+lean = "DataArray.isel"
+ref = "xarray.DataArray.isel"
+description = "DataArray isel"
+
+[[functions]]
+lean = "DataArray.map"
+ref = "xarray.DataArray.map"
+description = "DataArray map"
+
+[[functions]]
+lean = "DataArray.sumAll"
+ref = "xarray.DataArray.sum_all"
+description = "DataArray sumAll"
+
+[[functions]]
+lean = "DataArray.sel"
+ref = "xarray.DataArray.sel"
+description = "DataArray sel"
+
+[[functions]]
+lean = "DataArray.meanAll"
+ref = "xarray.DataArray.mean_all"
+description = "DataArray meanAll"
+
+[[functions]]
+lean = "DataArray.map_id"
+ref = "xarray.DataArray.map_id"
+description = "DataArray map id"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "DataArray.sel_isel_rel"
+chain = []
+description = "DataArray.sel isel"
+
+[[relational]]
+spec = "DataArray.sumAll_meanAll_rel"
+chain = []
+description = "DataArray.sumAll meanAll"
+

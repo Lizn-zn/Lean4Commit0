@@ -1,0 +1,25 @@
+[meta]
+language = "python"
+repo = "https://github.com/scott-griffiths/bitstring"
+package = "bitstring"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=bitstring/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "Bits.getBit"
+ref = "bitstring.Bits.get_bit"
+description = "Bits getBit"
+
+[[functions]]
+lean = "Bits.setBit"
+ref = "bitstring.Bits.set_bit"
+description = "Bits setBit"
+
+[[functions]]
+lean = "Bits.find"
+ref = "bitstring.Bits.find"
+description = "Bits find"
+

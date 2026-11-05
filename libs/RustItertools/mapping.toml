@@ -1,0 +1,25 @@
+[meta]
+language = "rust"
+repo = "https://github.com/rust-itertools/itertools"
+package = "itertools"
+version = ""
+test_cmd = "cargo test"
+mutation_cmd = "cargo mutants"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "combinations"
+ref = "itertools::combinations"
+description = "combinations"
+
+[[functions]]
+lean = "interleave"
+ref = "itertools::interleave"
+description = "interleave"
+
+[[functions]]
+lean = "scanLeft"
+ref = "itertools::scan_left"
+description = "scanLeft"
+

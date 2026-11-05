@@ -1,0 +1,37 @@
+[meta]
+language = "python"
+repo = "https://github.com/pytoolz/toolz"
+package = "toolz"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=toolz/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "compose"
+ref = "toolz.compose"
+description = "compose"
+
+[[functions]]
+lean = "groupBy"
+ref = "toolz.group_by"
+description = "groupBy"
+
+[[functions]]
+lean = "merge"
+ref = "toolz.merge"
+description = "merge"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "compose_assoc_rel"
+chain = []
+description = "compose assoc"
+
+[[relational]]
+spec = "groupBy_complete_rel"
+chain = []
+description = "groupBy complete"
+

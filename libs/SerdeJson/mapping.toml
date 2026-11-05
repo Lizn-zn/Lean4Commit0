@@ -1,0 +1,22 @@
+[meta]
+language = "rust"
+repo = "https://github.com/serde-rs/json"
+package = "serde_json"
+version = ""
+test_cmd = "cargo test"
+mutation_cmd = "cargo mutants"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "pointer"
+ref = "serde_json::pointer"
+description = "pointer"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "parse_toStringCompact_rel"
+chain = []
+description = "parse toStringCompact"
+

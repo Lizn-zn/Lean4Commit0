@@ -1,0 +1,42 @@
+[meta]
+language = "c"
+repo = "https://github.com/richgel999/miniz"
+package = "miniz"
+version = ""
+test_cmd = "make test"
+mutation_cmd = ""
+
+# --- Function specs ---
+
+[[functions]]
+lean = "inflate"
+ref = "inflate"
+description = "inflate"
+
+[[functions]]
+lean = "deflate"
+ref = "deflate"
+description = "deflate"
+
+[[functions]]
+lean = "adler32"
+ref = "adler32"
+description = "adler32"
+
+[[functions]]
+lean = "adler32Update"
+ref = "adler32_update"
+description = "adler32Update"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "inflate_deflate_rel"
+chain = []
+description = "inflate deflate"
+
+[[relational]]
+spec = "adler32_append_rel"
+chain = []
+description = "adler32 append"
+

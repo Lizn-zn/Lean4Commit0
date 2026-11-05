@@ -1,0 +1,35 @@
+{
+  "revision_id": "arrow-valid-input-v1",
+  "baseline_source_commit": "0e91089e55c230e40e4c8e9fa946d556832294e4",
+  "baseline_review_archive": "lean4commit0-before-arrow-revision-review.tar.gz",
+  "baseline_archive_sha256": "9749bde8e78d9f171221ee176708b5c2079f27b015dd2887c84ca39561067b48",
+  "changes": {
+    "libs/Arrow/Arrow/Helpers.lean": {
+      "before_sha256": "e63627e8b07d9d4d5e159590da81dc9d3342a8edce67d8363de67520c52609eb",
+      "after_sha256": "7e7ddc603cc96f77c43eb508d0c7d73b875ecf210c6f7e29c24582a847822eaa"
+    },
+    "libs/Arrow/Arrow/Types.lean": {
+      "before_sha256": "9c2599101397ace5158ff960e659f62168057c7a38a71425d841b3062bebcef5",
+      "after_sha256": "54058df4b261ac73d9e83773ee6a27fdc032edb3a1e4786cb1df6407c2fb9ed5"
+    },
+    "libs/Arrow/Arrow/Shift.lean": {
+      "before_sha256": "881c1e3e41493a9155ce8c7b37fc5839d6c5bfe8a57bbecb0e0f7f696dfff93a",
+      "after_sha256": "9170c86edfd065913f54dc79942c7039978bbd680ac77a8734b095fee645e5dd"
+    },
+    "libs/Arrow/Instruction.md": {
+      "before_sha256": "c93e27ee941807c9b68320357e345b3f46f52af21999378ab3b5297fa286243c",
+      "after_sha256": "b7243cdd0cc1f4597757f5b79fa7193416a3586c837e44b7c4d7064a7e2b89a7"
+    },
+    "libs/Arrow/.provided_hash": {
+      "before_sha256": "b9aafe8dedfbe181385bc350d1180acd1ca3fa23f77b55380c613a2923981bc9",
+      "after_sha256": "6f570a8821407aea8b4eca7a5770b980321c9d815fef376c36c4a43926ea21c0"
+    },
+    "libs/Arrow/Arrow/IsoFormat.lean": {
+      "before_sha256": "62f264d5e02e8f7acba8ebccda94d7903d9f36b11d6f3765c874bf2872b2c7f1",
+      "after_sha256": "fb5506fb3f6ca6721fc5afddf13ad1df92cf59ac2c2781e9c5d1706d8e420ab5"
+    }
+  },
+  "paper_experiment_results_modified": false,
+  "experiment_rerun": false,
+  "published": false
+}

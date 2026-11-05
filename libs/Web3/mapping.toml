@@ -1,0 +1,37 @@
+[meta]
+language = "python"
+repo = "https://github.com/ethereum/web3.py"
+package = "web3"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=web3/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "wei_conversion"
+ref = "web3.py.wei_conversion"
+description = "wei conversion"
+
+[[functions]]
+lean = "abiEncode_roundtrip"
+ref = "web3.py.abi_encode_roundtrip"
+description = "abiEncode roundtrip"
+
+[[functions]]
+lean = "hex_roundtrip"
+ref = "web3.py.hex_roundtrip"
+description = "hex roundtrip"
+
+[[functions]]
+lean = "hex_empty"
+ref = "web3.py.hex_empty"
+description = "hex empty"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "hex_string_roundtrip_rel"
+chain = []
+description = "hex string roundtrip"
+

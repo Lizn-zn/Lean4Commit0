@@ -1,0 +1,32 @@
+[meta]
+language = "python"
+repo = "https://github.com/tlsfuzzer/tlslite-ng"
+package = "tlslite-ng"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=tlslite_ng/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "CipherSuite.ofId"
+ref = "tlslite_ng.CipherSuite.of_id"
+description = "CipherSuite ofId"
+
+[[functions]]
+lean = "HandshakeState.transition"
+ref = "tlslite_ng.HandshakeState.transition"
+description = "HandshakeState transition"
+
+[[functions]]
+lean = "HandshakeState.isTerminal"
+ref = "tlslite_ng.HandshakeState.is_terminal"
+description = "HandshakeState isTerminal"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "HandshakeState.terminal_no_transition_rel"
+chain = []
+description = "HandshakeState.terminal no transition"
+

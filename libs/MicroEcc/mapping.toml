@@ -1,0 +1,42 @@
+[meta]
+language = "c"
+repo = "https://github.com/kmackay/micro-ecc"
+package = "micro-ecc"
+version = ""
+test_cmd = "make test"
+mutation_cmd = ""
+
+# --- Function specs ---
+
+[[functions]]
+lean = "pointAdd"
+ref = "point_add"
+description = "pointAdd"
+
+[[functions]]
+lean = "ecdsaSign"
+ref = "ecdsa_sign"
+description = "ecdsaSign"
+
+[[functions]]
+lean = "ecdsaVerify"
+ref = "ecdsa_verify"
+description = "ecdsaVerify"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "publicKeyFromPrivate_rel"
+chain = []
+description = "publicKeyFromPrivate"
+
+[[relational]]
+spec = "pointAdd_comm_rel"
+chain = []
+description = "pointAdd comm"
+
+[[relational]]
+spec = "verify_after_sign_rel"
+chain = []
+description = "verify after sign"
+

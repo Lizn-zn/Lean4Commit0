@@ -1,0 +1,25 @@
+[meta]
+language = "python"
+repo = "https://github.com/paramiko/paramiko"
+package = "paramiko"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=paramiko/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "ChannelState.transition"
+ref = "paramiko.ChannelState.transition"
+description = "ChannelState transition"
+
+[[functions]]
+lean = "lookupKnownHost"
+ref = "paramiko.lookup_known_host"
+description = "lookupKnownHost"
+
+[[functions]]
+lean = "verifyHostKey"
+ref = "paramiko.verify_host_key"
+description = "verifyHostKey"
+

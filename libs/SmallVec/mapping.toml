@@ -1,0 +1,25 @@
+[meta]
+language = "rust"
+repo = "https://github.com/servo/rust-smallvec"
+package = "smallvec"
+version = ""
+test_cmd = "cargo test"
+mutation_cmd = "cargo mutants"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "SmallVec.push"
+ref = "smallvec::SmallVec::push"
+description = "SmallVec push"
+
+[[functions]]
+lean = "SmallVec.insert"
+ref = "smallvec::SmallVec::insert"
+description = "SmallVec insert"
+
+[[functions]]
+lean = "SmallVec.drain"
+ref = "smallvec::SmallVec::drain"
+description = "SmallVec drain"
+

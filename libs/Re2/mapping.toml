@@ -1,0 +1,35 @@
+[meta]
+language = "cpp"
+repo = "https://github.com/google/re2"
+package = "re2"
+version = ""
+test_cmd = "make test"
+mutation_cmd = ""
+
+# --- Function specs ---
+
+[[functions]]
+lean = "fullMatch"
+ref = "full_match"
+description = "fullMatch"
+
+[[functions]]
+lean = "fullMatch_iff"
+ref = "full_match_iff"
+description = "fullMatch iff"
+
+[[functions]]
+lean = "findAll"
+ref = "find_all"
+description = "findAll"
+
+[[functions]]
+lean = "findAll_valid"
+ref = "find_all_valid"
+description = "findAll valid"
+
+[[functions]]
+lean = "compile"
+ref = "compile"
+description = "compile"
+

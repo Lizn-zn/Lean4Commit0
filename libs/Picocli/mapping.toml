@@ -1,0 +1,32 @@
+[meta]
+language = "java"
+repo = "https://github.com/remkop/picocli"
+package = "info.picocli:picocli"
+version = ""
+test_cmd = "mvn test"
+mutation_cmd = ""
+
+# --- Function specs ---
+
+[[functions]]
+lean = "parse"
+ref = "picocli.parse"
+description = "parse"
+
+[[functions]]
+lean = "validateRequired"
+ref = "picocli.validateRequired"
+description = "validateRequired"
+
+[[functions]]
+lean = "generateUsage"
+ref = "picocli.generateUsage"
+description = "generateUsage"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "parse_validates_required_rel"
+chain = []
+description = "parse validates required"
+

@@ -1,0 +1,32 @@
+[meta]
+language = "c"
+repo = "https://github.com/facebook/zstd"
+package = "zstd"
+version = ""
+test_cmd = "make test"
+mutation_cmd = ""
+
+# --- Function specs ---
+
+[[functions]]
+lean = "compress"
+ref = "compress"
+description = "compress"
+
+[[functions]]
+lean = "decompress"
+ref = "decompress"
+description = "decompress"
+
+[[functions]]
+lean = "parseSequences"
+ref = "parse_sequences"
+description = "parseSequences"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "compress_decompress_rel"
+chain = []
+description = "compress decompress"
+

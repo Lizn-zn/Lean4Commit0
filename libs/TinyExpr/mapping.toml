@@ -1,0 +1,42 @@
+[meta]
+language = "c"
+repo = "https://github.com/codeplea/tinyexpr"
+package = "tinyexpr"
+version = ""
+test_cmd = "make test"
+mutation_cmd = ""
+
+# --- Function specs ---
+
+[[functions]]
+lean = "parse"
+ref = "parse"
+description = "parse"
+
+[[functions]]
+lean = "eval"
+ref = "eval"
+description = "eval"
+
+[[functions]]
+lean = "simplify"
+ref = "simplify"
+description = "simplify"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "parse_roundtrip_rel"
+chain = []
+description = "parse roundtrip"
+
+[[relational]]
+spec = "simplify_preserves_eval_rel"
+chain = []
+description = "simplify preserves eval"
+
+[[relational]]
+spec = "eval_num_rel"
+chain = []
+description = "eval num"
+

@@ -1,0 +1,37 @@
+[meta]
+language = "python"
+repo = "https://github.com/msiemens/tinydb"
+package = "tinydb"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=tinydb/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "Query.eval"
+ref = "tinydb.Query.eval"
+description = "Query eval"
+
+[[functions]]
+lean = "Table.insert"
+ref = "tinydb.Table.insert"
+description = "Table insert"
+
+[[functions]]
+lean = "Table.search"
+ref = "tinydb.Table.search"
+description = "Table search"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "Table.get_after_insert_rel"
+chain = []
+description = "Table.get after insert"
+
+[[relational]]
+spec = "Table.insert_search_rel"
+chain = []
+description = "Table.insert search"
+

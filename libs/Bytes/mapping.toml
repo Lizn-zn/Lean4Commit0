@@ -1,0 +1,40 @@
+[meta]
+language = "unknown"
+repo = "https://github.com/tokio-rs/bytes"
+package = "None"
+version = ""
+test_cmd = ""
+mutation_cmd = ""
+
+# --- Function specs ---
+
+[[functions]]
+lean = "Bytes.len"
+ref = "Bytes.len"
+description = "Bytes len"
+
+[[functions]]
+lean = "BytesMut.len"
+ref = "BytesMut.len"
+description = "BytesMut len"
+
+[[functions]]
+lean = "BufReader.remaining"
+ref = "BufReader.remaining"
+description = "BufReader remaining"
+
+[[functions]]
+lean = "Bytes.splitAt"
+ref = "Bytes.splitAt"
+description = "Bytes splitAt"
+
+[[functions]]
+lean = "BytesMut.putU32Le"
+ref = "BytesMut.putU32Le"
+description = "BytesMut putU32Le"
+
+[[functions]]
+lean = "BufReader.getU8"
+ref = "BufReader.getU8"
+description = "BufReader getU8"
+

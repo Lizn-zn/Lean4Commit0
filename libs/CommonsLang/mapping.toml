@@ -1,0 +1,32 @@
+[meta]
+language = "java"
+repo = "https://github.com/apache/commons-lang"
+package = "org.apache.commons:commons-lang3"
+version = ""
+test_cmd = "mvn test"
+mutation_cmd = ""
+
+# --- Function specs ---
+
+[[functions]]
+lean = "leftPad"
+ref = "commons-lang.leftPad"
+description = "leftPad"
+
+[[functions]]
+lean = "rotate"
+ref = "commons-lang.rotate"
+description = "rotate"
+
+[[functions]]
+lean = "countMatches"
+ref = "commons-lang.countMatches"
+description = "countMatches"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "rotate_full_rel"
+chain = []
+description = "rotate full"
+

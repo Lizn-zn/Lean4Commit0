@@ -1,0 +1,37 @@
+[meta]
+language = "java"
+repo = "https://github.com/google/gson"
+package = "com.google.code.gson:gson"
+version = ""
+test_cmd = "mvn test"
+mutation_cmd = ""
+
+# --- Function specs ---
+
+[[functions]]
+lean = "parse"
+ref = "Gson.parse"
+description = "parse"
+
+[[functions]]
+lean = "toCompactString"
+ref = "Gson.toCompactString"
+description = "toCompactString"
+
+[[functions]]
+lean = "JsonElement.add"
+ref = "Gson.JsonElement.add"
+description = "JsonElement add"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "parse_toCompactString_roundtrip_rel"
+chain = []
+description = "parse toCompactString roundtrip"
+
+[[relational]]
+spec = "add_then_has_rel"
+chain = []
+description = "add then has"
+

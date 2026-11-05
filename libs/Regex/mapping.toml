@@ -1,0 +1,32 @@
+[meta]
+language = "rust"
+repo = "https://github.com/rust-lang/regex"
+package = "regex"
+version = ""
+test_cmd = "cargo test"
+mutation_cmd = "cargo mutants"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "isMatch"
+ref = "regex::is_match"
+description = "isMatch"
+
+[[functions]]
+lean = "findAll"
+ref = "regex::find_all"
+description = "findAll"
+
+[[functions]]
+lean = "replaceAll"
+ref = "regex::replace_all"
+description = "replaceAll"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "replaceAll_no_match_rel"
+chain = []
+description = "replaceAll no match"
+

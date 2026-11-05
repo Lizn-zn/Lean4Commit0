@@ -1,0 +1,30 @@
+[meta]
+language = "python"
+repo = "https://github.com/pypa/virtualenv"
+package = "virtualenv"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=virtualenv/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "VersionSpecSet.filter"
+ref = "virtualenv.VersionSpecSet.filter"
+description = "VersionSpecSet filter"
+
+[[functions]]
+lean = "resolveDependencies"
+ref = "virtualenv.resolve_dependencies"
+description = "resolveDependencies"
+
+[[functions]]
+lean = "normalizeName"
+ref = "virtualenv.normalize_name"
+description = "normalizeName"
+
+[[functions]]
+lean = "normalizeName_idempotent"
+ref = "virtualenv.normalize_name_idempotent"
+description = "normalizeName idempotent"
+

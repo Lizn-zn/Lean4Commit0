@@ -1,0 +1,47 @@
+[meta]
+language = "python"
+repo = "https://github.com/pallets/click"
+package = "click"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=click/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "convertValue"
+ref = "click.convert_value"
+description = "convertValue"
+
+[[functions]]
+lean = "paramValueToString"
+ref = "click.param_value_to_string"
+description = "paramValueToString"
+
+[[functions]]
+lean = "resolveParam"
+ref = "click.resolve_param"
+description = "resolveParam"
+
+[[functions]]
+lean = "parseArgs"
+ref = "click.parse_args"
+description = "parseArgs"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "convertValue_string_roundtrip_rel"
+chain = []
+description = "convertValue string roundtrip"
+
+[[relational]]
+spec = "convertValue_int_roundtrip_rel"
+chain = []
+description = "convertValue int roundtrip"
+
+[[relational]]
+spec = "convertValue_bool_roundtrip_rel"
+chain = []
+description = "convertValue bool roundtrip"
+

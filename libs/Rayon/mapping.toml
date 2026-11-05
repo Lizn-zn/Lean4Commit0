@@ -1,0 +1,47 @@
+[meta]
+language = "rust"
+repo = "https://github.com/rayon-rs/rayon"
+package = "rayon"
+version = ""
+test_cmd = "cargo test"
+mutation_cmd = "cargo mutants"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "ParIter.fromList"
+ref = "rayon::ParIter::from_list"
+description = "ParIter fromList"
+
+[[functions]]
+lean = "ParIter.collect"
+ref = "rayon::ParIter::collect"
+description = "ParIter collect"
+
+[[functions]]
+lean = "ParIter.map"
+ref = "rayon::ParIter::map"
+description = "ParIter map"
+
+[[functions]]
+lean = "ParIter.reduce"
+ref = "rayon::ParIter::reduce"
+description = "ParIter reduce"
+
+[[functions]]
+lean = "join"
+ref = "rayon::join"
+description = "join"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "collect_fromList_rel"
+chain = []
+description = "collect fromList"
+
+[[relational]]
+spec = "reduce_sum_rel"
+chain = []
+description = "reduce sum"
+

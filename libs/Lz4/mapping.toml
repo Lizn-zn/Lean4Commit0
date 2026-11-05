@@ -1,0 +1,37 @@
+[meta]
+language = "c"
+repo = "https://github.com/lz4/lz4"
+package = "lz4"
+version = ""
+test_cmd = "make test"
+mutation_cmd = ""
+
+# --- Function specs ---
+
+[[functions]]
+lean = "compressBlock"
+ref = "compress_block"
+description = "compressBlock"
+
+[[functions]]
+lean = "decompressBlock"
+ref = "decompress_block"
+description = "decompressBlock"
+
+[[functions]]
+lean = "matchLength"
+ref = "match_length"
+description = "matchLength"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "block_roundtrip_rel"
+chain = []
+description = "block roundtrip"
+
+[[relational]]
+spec = "matchLength_symmetric_rel"
+chain = []
+description = "matchLength symmetric"
+

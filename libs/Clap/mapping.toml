@@ -1,0 +1,37 @@
+[meta]
+language = "unknown"
+repo = "https://github.com/clap-rs/clap"
+package = "None"
+version = ""
+test_cmd = ""
+mutation_cmd = ""
+
+# --- Function specs ---
+
+[[functions]]
+lean = "parseAndValidate"
+ref = "parseAndValidate"
+description = "parseAndValidate"
+
+[[functions]]
+lean = "generateHelp"
+ref = "generateHelp"
+description = "generateHelp"
+
+[[functions]]
+lean = "ArgMatches.getString"
+ref = "ArgMatches.getString"
+description = "ArgMatches getString"
+
+[[functions]]
+lean = "ArgMatches.getBool"
+ref = "ArgMatches.getBool"
+description = "ArgMatches getBool"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "parse_flag_rel"
+chain = []
+description = "parse flag"
+

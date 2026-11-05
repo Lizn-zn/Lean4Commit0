@@ -1,0 +1,25 @@
+[meta]
+language = "python"
+repo = "https://github.com/davidhalter/jedi"
+package = "jedi"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=jedi/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "buildScopes"
+ref = "jedi.build_scopes"
+description = "buildScopes"
+
+[[functions]]
+lean = "activeParameter"
+ref = "jedi.active_parameter"
+description = "activeParameter"
+
+[[functions]]
+lean = "extractNameDefs"
+ref = "jedi.extract_name_defs"
+description = "extractNameDefs"
+

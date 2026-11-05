@@ -1,0 +1,32 @@
+[meta]
+language = "c"
+repo = "https://github.com/nayuki/QR-Code-generator"
+package = "qrcodegen"
+version = ""
+test_cmd = "make test"
+mutation_cmd = ""
+
+# --- Function specs ---
+
+[[functions]]
+lean = "encodeByte"
+ref = "encode_byte"
+description = "encodeByte"
+
+[[functions]]
+lean = "applyMask"
+ref = "apply_mask"
+description = "applyMask"
+
+[[functions]]
+lean = "encode"
+ref = "encode"
+description = "encode"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "applyMask_idempotent_rel"
+chain = []
+description = "applyMask idempotent"
+

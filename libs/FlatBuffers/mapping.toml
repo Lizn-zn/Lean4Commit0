@@ -1,0 +1,37 @@
+[meta]
+language = "cpp"
+repo = "https://github.com/google/flatbuffers"
+package = "flatbuffers"
+version = ""
+test_cmd = "make test"
+mutation_cmd = ""
+
+# --- Function specs ---
+
+[[functions]]
+lean = "serialize"
+ref = "serialize"
+description = "serialize"
+
+[[functions]]
+lean = "Builder.addFieldInt"
+ref = "builder_add_field_int"
+description = "Builder addFieldInt"
+
+[[functions]]
+lean = "alignTo"
+ref = "align_to"
+description = "alignTo"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "serialize_deserialize_rel"
+chain = []
+description = "serialize deserialize"
+
+[[relational]]
+spec = "alignTo_idempotent_rel"
+chain = []
+description = "alignTo idempotent"
+

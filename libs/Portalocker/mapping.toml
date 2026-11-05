@@ -1,0 +1,62 @@
+[meta]
+language = "python"
+repo = "https://github.com/WoLpH/portalocker"
+package = "portalocker"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=portalocker/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "Lock.isLocked"
+ref = "portalocker.Lock.is_locked"
+description = "Lock isLocked"
+
+[[functions]]
+lean = "Lock.isHeldBy"
+ref = "portalocker.Lock.is_held_by"
+description = "Lock isHeldBy"
+
+[[functions]]
+lean = "Lock.new"
+ref = "portalocker.Lock.new"
+description = "Lock new"
+
+[[functions]]
+lean = "RLock.new"
+ref = "portalocker.RLock.new"
+description = "RLock new"
+
+[[functions]]
+lean = "Lock.acquire"
+ref = "portalocker.Lock.acquire"
+description = "Lock acquire"
+
+[[functions]]
+lean = "Lock.release"
+ref = "portalocker.Lock.release"
+description = "Lock release"
+
+[[functions]]
+lean = "RLock.acquire"
+ref = "portalocker.RLock.acquire"
+description = "RLock acquire"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "acquire_release_rel"
+chain = []
+description = "acquireease"
+
+[[relational]]
+spec = "double_acquire_exclusive_rel"
+chain = []
+description = "double acquire exclusive"
+
+[[relational]]
+spec = "shared_allows_multiple_rel"
+chain = []
+description = "shared allows multiple"
+

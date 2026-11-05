@@ -1,0 +1,30 @@
+[meta]
+language = "python"
+repo = "https://github.com/alecthomas/voluptuous"
+package = "voluptuous"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=voluptuous/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "validate"
+ref = "voluptuous.validate"
+description = "validate"
+
+[[functions]]
+lean = "isBoolean_accepts"
+ref = "voluptuous.is_boolean_accepts"
+description = "isBoolean accepts"
+
+[[functions]]
+lean = "isBoolean_rejects_int"
+ref = "voluptuous.is_boolean_rejects_int"
+description = "isBoolean rejects int"
+
+[[functions]]
+lean = "isBoolean_rejects_str"
+ref = "voluptuous.is_boolean_rejects_str"
+description = "isBoolean rejects str"
+

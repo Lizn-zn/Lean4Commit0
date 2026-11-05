@@ -1,0 +1,37 @@
+[meta]
+language = "c"
+repo = "https://github.com/nothings/stb"
+package = "stb"
+version = ""
+test_cmd = "make test"
+mutation_cmd = ""
+
+# --- Function specs ---
+
+[[functions]]
+lean = "decodePng"
+ref = "decode_png"
+description = "decodePng"
+
+[[functions]]
+lean = "resize"
+ref = "resize"
+description = "resize"
+
+[[functions]]
+lean = "setPixel"
+ref = "set_pixel"
+description = "setPixel"
+
+[[functions]]
+lean = "getPixel"
+ref = "get_pixel"
+description = "getPixel"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "getPixel_after_setPixel_rel"
+chain = []
+description = "getPixel after setPixel"
+

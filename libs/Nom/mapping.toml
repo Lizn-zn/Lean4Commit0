@@ -1,0 +1,25 @@
+[meta]
+language = "rust"
+repo = "https://github.com/rust-bakery/nom"
+package = "nom"
+version = ""
+test_cmd = "cargo test"
+mutation_cmd = "cargo mutants"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "tag"
+ref = "nom::tag"
+description = "tag"
+
+[[functions]]
+lean = "pair"
+ref = "nom::pair"
+description = "pair"
+
+[[functions]]
+lean = "many0"
+ref = "nom::many0"
+description = "many0"
+

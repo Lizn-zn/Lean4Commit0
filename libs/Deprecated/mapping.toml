@@ -1,0 +1,32 @@
+[meta]
+language = "python"
+repo = "https://github.com/tantale/deprecated"
+package = "deprecated"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=deprecated/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "DeprecationRegistry.lookup"
+ref = "deprecated.DeprecationRegistry.lookup"
+description = "DeprecationRegistry lookup"
+
+[[functions]]
+lean = "DeprecationRegistry.register"
+ref = "deprecated.DeprecationRegistry.register"
+description = "DeprecationRegistry register"
+
+[[functions]]
+lean = "isRemoved"
+ref = "deprecated.is_removed"
+description = "isRemoved"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "register_lookup_rel"
+chain = []
+description = "register lookup"
+

@@ -1,0 +1,25 @@
+[meta]
+language = "python"
+repo = "https://github.com/dbader/schedule"
+package = "schedule"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=schedule/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "computeNextRun"
+ref = "schedule.compute_next_run"
+description = "computeNextRun"
+
+[[functions]]
+lean = "isDue"
+ref = "schedule.is_due"
+description = "isDue"
+
+[[functions]]
+lean = "Scheduler.addJob"
+ref = "schedule.Scheduler.add_job"
+description = "Scheduler addJob"
+

@@ -1,0 +1,25 @@
+[meta]
+language = "python"
+repo = "https://github.com/scrapy/scrapy"
+package = "scrapy"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=scrapy/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "extractLinks"
+ref = "scrapy.extract_links"
+description = "extractLinks"
+
+[[functions]]
+lean = "selectCSS"
+ref = "scrapy.select_css"
+description = "selectCSS"
+
+[[functions]]
+lean = "evalXPathStep"
+ref = "scrapy.eval_x_path_step"
+description = "evalXPathStep"
+

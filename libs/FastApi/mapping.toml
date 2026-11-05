@@ -1,0 +1,25 @@
+[meta]
+language = "python"
+repo = "https://github.com/tiangolo/fastapi"
+package = "fastapi"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=fastapi/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "matchURL"
+ref = "fastapi.match_url"
+description = "matchURL"
+
+[[functions]]
+lean = "validateModel"
+ref = "fastapi.validate_model"
+description = "validateModel"
+
+[[functions]]
+lean = "generateOpenAPISpec"
+ref = "fastapi.generate_open_api_spec"
+description = "generateOpenAPISpec"
+

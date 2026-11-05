@@ -1,0 +1,42 @@
+[meta]
+language = "python"
+repo = "https://github.com/jpadilla/pyjwt"
+package = "pyjwt"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=pyjwt/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "hmacSha256"
+ref = "pyjwt.hmac_sha256"
+description = "hmacSha256"
+
+[[functions]]
+lean = "sign_verify"
+ref = "pyjwt.sign_verify"
+description = "sign verify"
+
+[[functions]]
+lean = "sign_none"
+ref = "pyjwt.sign_none"
+description = "sign none"
+
+[[functions]]
+lean = "base64url_roundtrip"
+ref = "pyjwt.base64url_roundtrip"
+description = "base64url roundtrip"
+
+[[functions]]
+lean = "base64url_format"
+ref = "pyjwt.base64url_format"
+description = "base64url format"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "jwt_roundtrip_rel"
+chain = []
+description = "jwt roundtrip"
+

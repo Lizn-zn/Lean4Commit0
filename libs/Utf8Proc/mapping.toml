@@ -1,0 +1,42 @@
+[meta]
+language = "c"
+repo = "https://github.com/JuliaStrings/utf8proc"
+package = "utf8proc"
+version = ""
+test_cmd = "make test"
+mutation_cmd = ""
+
+# --- Function specs ---
+
+[[functions]]
+lean = "charCategory"
+ref = "char_category"
+description = "charCategory"
+
+[[functions]]
+lean = "normalize"
+ref = "normalize"
+description = "normalize"
+
+[[functions]]
+lean = "codePointToUtf8"
+ref = "code_point_to_utf8"
+description = "codePointToUtf8"
+
+[[functions]]
+lean = "utf8ToCodePoints"
+ref = "utf8_to_code_points"
+description = "utf8ToCodePoints"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "utf8_roundtrip_rel"
+chain = []
+description = "utf8 roundtrip"
+
+[[relational]]
+spec = "normalize_idempotent_rel"
+chain = []
+description = "normalize idempotent"
+

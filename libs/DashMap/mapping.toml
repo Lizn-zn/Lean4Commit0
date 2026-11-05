@@ -1,0 +1,52 @@
+[meta]
+language = "rust"
+repo = "https://github.com/xacrimon/dashmap"
+package = "dashmap"
+version = ""
+test_cmd = "cargo test"
+mutation_cmd = "cargo mutants"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "DashMap.new"
+ref = "dashmap::DashMap::new"
+description = "DashMap new"
+
+[[functions]]
+lean = "DashMap.insert"
+ref = "dashmap::DashMap::insert"
+description = "DashMap insert"
+
+[[functions]]
+lean = "DashMap.get"
+ref = "dashmap::DashMap::get"
+description = "DashMap get"
+
+[[functions]]
+lean = "DashMap.remove"
+ref = "dashmap::DashMap::remove"
+description = "DashMap remove"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "get_insert_rel"
+chain = []
+description = "get insert"
+
+[[relational]]
+spec = "get_insert_other_rel"
+chain = []
+description = "get insert other"
+
+[[relational]]
+spec = "get_remove_rel"
+chain = []
+description = "get remove"
+
+[[relational]]
+spec = "get_remove_other_rel"
+chain = []
+description = "get remove other"
+

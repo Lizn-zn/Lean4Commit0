@@ -1,0 +1,37 @@
+[meta]
+language = "python"
+repo = "https://github.com/ijl/orjson"
+package = "orjson"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=orjson/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "dumps"
+ref = "orjson.dumps"
+description = "dumps"
+
+[[functions]]
+lean = "loads"
+ref = "orjson.loads"
+description = "loads"
+
+[[functions]]
+lean = "sortKeys"
+ref = "orjson.sort_keys"
+description = "sortKeys"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "loads_dumps_roundtrip_rel"
+chain = []
+description = "loads dumps roundtrip"
+
+[[relational]]
+spec = "sortKeys_output_sorted_rel"
+chain = []
+description = "sortKeys output sorted"
+

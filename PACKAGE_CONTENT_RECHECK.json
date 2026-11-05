@@ -1,0 +1,13 @@
+{
+  "revision": "release-candidate-v3",
+  "kind": "allowlisted benchmark tree; excludes caches, original construction material, private witnesses and VCS state",
+  "python_syntax": "pass",
+  "bash_wrapper_syntax_and_library_targets": 216,
+  "contains_skills": false,
+  "contains_P3_harness": false,
+  "contains_reference_answers": false,
+  "contains_private_revision_regressions": false,
+  "third_party_notices": 132,
+  "public_files_before_final_manifest_and_checksums": 1742,
+  "publication_performed": false
+}

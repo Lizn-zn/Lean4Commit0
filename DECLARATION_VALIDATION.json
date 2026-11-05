@@ -1,0 +1,1212 @@
+{
+  "revision": "release-candidate-v3",
+  "libraries": [
+    {
+      "library": "AhoCorasick",
+      "required_declarations": 25,
+      "owned_declarations": 117,
+      "template_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound",
+        "sorryAx"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Arrow",
+      "required_declarations": 32,
+      "owned_declarations": 98,
+      "template_axioms": [
+        "sorryAx",
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Attrs",
+      "required_declarations": 29,
+      "owned_declarations": 250,
+      "template_axioms": [
+        "propext",
+        "sorryAx",
+        "Classical.choice"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Babel",
+      "required_declarations": 36,
+      "owned_declarations": 178,
+      "template_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice",
+        "sorryAx"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "BitString",
+      "required_declarations": 13,
+      "owned_declarations": 31,
+      "template_axioms": [
+        "sorryAx",
+        "propext"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Blake3",
+      "required_declarations": 31,
+      "owned_declarations": 49,
+      "template_axioms": [
+        "sorryAx",
+        "propext",
+        "Quot.sound"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Boltons",
+      "required_declarations": 24,
+      "owned_declarations": 41,
+      "template_axioms": [
+        "sorryAx",
+        "propext"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Bytes",
+      "required_declarations": 27,
+      "owned_declarations": 83,
+      "template_axioms": [
+        "sorryAx",
+        "propext"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "CJSON",
+      "required_declarations": 31,
+      "owned_declarations": 115,
+      "template_axioms": [
+        "sorryAx",
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "CacheTools",
+      "required_declarations": 31,
+      "owned_declarations": 84,
+      "template_axioms": [
+        "sorryAx",
+        "propext"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Caffeine",
+      "required_declarations": 40,
+      "owned_declarations": 184,
+      "template_axioms": [
+        "propext",
+        "sorryAx"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Chardet",
+      "required_declarations": 27,
+      "owned_declarations": 159,
+      "template_axioms": [
+        "sorryAx",
+        "Classical.choice",
+        "propext"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Clap",
+      "required_declarations": 33,
+      "owned_declarations": 268,
+      "template_axioms": [
+        "sorryAx",
+        "propext"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Click",
+      "required_declarations": 40,
+      "owned_declarations": 318,
+      "template_axioms": [
+        "propext",
+        "sorryAx",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "CommonsLang",
+      "required_declarations": 12,
+      "owned_declarations": 16,
+      "template_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice",
+        "sorryAx"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Cookiecutter",
+      "required_declarations": 40,
+      "owned_declarations": 268,
+      "template_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice",
+        "sorryAx"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Crossbeam",
+      "required_declarations": 24,
+      "owned_declarations": 73,
+      "template_axioms": [
+        "sorryAx",
+        "propext"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "DashMap",
+      "required_declarations": 22,
+      "owned_declarations": 38,
+      "template_axioms": [
+        "sorryAx",
+        "propext"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Deprecated",
+      "required_declarations": 26,
+      "owned_declarations": 114,
+      "template_axioms": [
+        "propext",
+        "sorryAx"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Disruptor",
+      "required_declarations": 25,
+      "owned_declarations": 64,
+      "template_axioms": [
+        "sorryAx",
+        "propext"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "DnsPython",
+      "required_declarations": 73,
+      "owned_declarations": 561,
+      "template_axioms": [
+        "propext",
+        "sorryAx",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Dulwich",
+      "required_declarations": 29,
+      "owned_declarations": 133,
+      "template_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice",
+        "sorryAx"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Fabric",
+      "required_declarations": 49,
+      "owned_declarations": 354,
+      "template_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice",
+        "sorryAx"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "FastApi",
+      "required_declarations": 53,
+      "owned_declarations": 517,
+      "template_axioms": [
+        "propext",
+        "sorryAx",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "FilesystemSpec",
+      "required_declarations": 26,
+      "owned_declarations": 164,
+      "template_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice",
+        "sorryAx"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Flask",
+      "required_declarations": 33,
+      "owned_declarations": 174,
+      "template_axioms": [
+        "propext",
+        "sorryAx"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "FlatBuffers",
+      "required_declarations": 40,
+      "owned_declarations": 367,
+      "template_axioms": [
+        "propext",
+        "sorryAx",
+        "Classical.choice"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Geopandas",
+      "required_declarations": 29,
+      "owned_declarations": 123,
+      "template_axioms": [
+        "Classical.choice",
+        "propext",
+        "sorryAx"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Graphene",
+      "required_declarations": 92,
+      "owned_declarations": 935,
+      "template_axioms": [
+        "propext",
+        "sorryAx",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Gson",
+      "required_declarations": 22,
+      "owned_declarations": 120,
+      "template_axioms": [
+        "propext",
+        "sorryAx",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Hashbrown",
+      "required_declarations": 27,
+      "owned_declarations": 71,
+      "template_axioms": [
+        "sorryAx",
+        "propext"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "ImapClient",
+      "required_declarations": 30,
+      "owned_declarations": 447,
+      "template_axioms": [
+        "propext",
+        "sorryAx",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "ImbalancedLearn",
+      "required_declarations": 24,
+      "owned_declarations": 77,
+      "template_axioms": [
+        "propext",
+        "Classical.choice",
+        "sorryAx"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Immutables",
+      "required_declarations": 26,
+      "owned_declarations": 76,
+      "template_axioms": [
+        "propext",
+        "sorryAx"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "JCTools",
+      "required_declarations": 22,
+      "owned_declarations": 39,
+      "template_axioms": [
+        "sorryAx",
+        "propext"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "JacksonCore",
+      "required_declarations": 41,
+      "owned_declarations": 318,
+      "template_axioms": [
+        "sorryAx",
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Jedi",
+      "required_declarations": 70,
+      "owned_declarations": 843,
+      "template_axioms": [
+        "propext",
+        "sorryAx",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Jinja",
+      "required_declarations": 25,
+      "owned_declarations": 310,
+      "template_axioms": [
+        "sorryAx",
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Joblib",
+      "required_declarations": 29,
+      "owned_declarations": 124,
+      "template_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice",
+        "sorryAx"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "JodaTime",
+      "required_declarations": 24,
+      "owned_declarations": 79,
+      "template_axioms": [
+        "sorryAx",
+        "propext",
+        "Quot.sound"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Jsoup",
+      "required_declarations": 27,
+      "owned_declarations": 243,
+      "template_axioms": [
+        "propext",
+        "sorryAx",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Kryo",
+      "required_declarations": 40,
+      "owned_declarations": 183,
+      "template_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound",
+        "sorryAx"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "LlHttp",
+      "required_declarations": 23,
+      "owned_declarations": 125,
+      "template_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice",
+        "sorryAx"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Logos",
+      "required_declarations": 27,
+      "owned_declarations": 213,
+      "template_axioms": [
+        "sorryAx",
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Loguru",
+      "required_declarations": 40,
+      "owned_declarations": 258,
+      "template_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice",
+        "sorryAx"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Lz4",
+      "required_declarations": 22,
+      "owned_declarations": 61,
+      "template_axioms": [
+        "sorryAx",
+        "propext"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Marshmallow",
+      "required_declarations": 44,
+      "owned_declarations": 415,
+      "template_axioms": [
+        "sorryAx",
+        "propext",
+        "Classical.choice"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Memchr",
+      "required_declarations": 11,
+      "owned_declarations": 11,
+      "template_axioms": [
+        "sorryAx",
+        "propext"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "MicroEcc",
+      "required_declarations": 35,
+      "owned_declarations": 130,
+      "template_axioms": [
+        "propext",
+        "sorryAx"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Mimesis",
+      "required_declarations": 30,
+      "owned_declarations": 269,
+      "template_axioms": [
+        "propext",
+        "sorryAx",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "MiniTorch",
+      "required_declarations": 29,
+      "owned_declarations": 84,
+      "template_axioms": [
+        "propext",
+        "sorryAx",
+        "Classical.choice"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Miniz",
+      "required_declarations": 22,
+      "owned_declarations": 23,
+      "template_axioms": [
+        "sorryAx"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "MoreItertools",
+      "required_declarations": 11,
+      "owned_declarations": 11,
+      "template_axioms": [
+        "propext",
+        "sorryAx"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "MoviePy",
+      "required_declarations": 21,
+      "owned_declarations": 97,
+      "template_axioms": [
+        "Classical.choice",
+        "sorryAx",
+        "propext"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "NetworkX",
+      "required_declarations": 26,
+      "owned_declarations": 49,
+      "template_axioms": [
+        "propext",
+        "sorryAx",
+        "Quot.sound"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Nom",
+      "required_declarations": 12,
+      "owned_declarations": 36,
+      "template_axioms": [
+        "sorryAx",
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Orjson",
+      "required_declarations": 19,
+      "owned_declarations": 111,
+      "template_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice",
+        "sorryAx"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Paramiko",
+      "required_declarations": 27,
+      "owned_declarations": 180,
+      "template_axioms": [
+        "sorryAx",
+        "propext"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Parsel",
+      "required_declarations": 39,
+      "owned_declarations": 338,
+      "template_axioms": [
+        "propext",
+        "sorryAx",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Pest",
+      "required_declarations": 31,
+      "owned_declarations": 273,
+      "template_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice",
+        "sorryAx"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Pexpect",
+      "required_declarations": 34,
+      "owned_declarations": 207,
+      "template_axioms": [
+        "propext",
+        "sorryAx",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Picocli",
+      "required_declarations": 39,
+      "owned_declarations": 376,
+      "template_axioms": [
+        "propext",
+        "Classical.choice",
+        "sorryAx",
+        "Quot.sound"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Portalocker",
+      "required_declarations": 39,
+      "owned_declarations": 130,
+      "template_axioms": [
+        "propext",
+        "sorryAx"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "ProgressBar",
+      "required_declarations": 31,
+      "owned_declarations": 248,
+      "template_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice",
+        "sorryAx"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "PromptToolkit",
+      "required_declarations": 19,
+      "owned_declarations": 62,
+      "template_axioms": [
+        "sorryAx",
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "PyBoy",
+      "required_declarations": 36,
+      "owned_declarations": 710,
+      "template_axioms": [
+        "propext",
+        "sorryAx",
+        "Quot.sound"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "PyJWT",
+      "required_declarations": 40,
+      "owned_declarations": 248,
+      "template_axioms": [
+        "propext",
+        "sorryAx",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Pydantic",
+      "required_declarations": 42,
+      "owned_declarations": 514,
+      "template_axioms": [
+        "propext",
+        "Classical.choice",
+        "sorryAx",
+        "Quot.sound"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Pylint",
+      "required_declarations": 60,
+      "owned_declarations": 813,
+      "template_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice",
+        "sorryAx"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Pypdf",
+      "required_declarations": 34,
+      "owned_declarations": 446,
+      "template_axioms": [
+        "propext",
+        "Classical.choice",
+        "sorryAx"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Pytest",
+      "required_declarations": 45,
+      "owned_declarations": 356,
+      "template_axioms": [
+        "propext",
+        "Classical.choice",
+        "sorryAx"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "PythonRsa",
+      "required_declarations": 30,
+      "owned_declarations": 103,
+      "template_axioms": [
+        "sorryAx",
+        "propext"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "QrCodeGen",
+      "required_declarations": 26,
+      "owned_declarations": 115,
+      "template_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice",
+        "sorryAx"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "RapidJson",
+      "required_declarations": 18,
+      "owned_declarations": 214,
+      "template_axioms": [
+        "propext",
+        "sorryAx",
+        "Classical.choice"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Rayon",
+      "required_declarations": 21,
+      "owned_declarations": 37,
+      "template_axioms": [
+        "propext",
+        "sorryAx"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Re2",
+      "required_declarations": 28,
+      "owned_declarations": 235,
+      "template_axioms": [
+        "sorryAx",
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Regex",
+      "required_declarations": 18,
+      "owned_declarations": 45,
+      "template_axioms": [
+        "sorryAx",
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Requests",
+      "required_declarations": 16,
+      "owned_declarations": 37,
+      "template_axioms": [
+        "sorryAx",
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "RustItertools",
+      "required_declarations": 11,
+      "owned_declarations": 14,
+      "template_axioms": [
+        "sorryAx"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Schedule",
+      "required_declarations": 20,
+      "owned_declarations": 117,
+      "template_axioms": [
+        "sorryAx",
+        "propext"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Scrapy",
+      "required_declarations": 53,
+      "owned_declarations": 424,
+      "template_axioms": [
+        "propext",
+        "sorryAx",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Seaborn",
+      "required_declarations": 17,
+      "owned_declarations": 54,
+      "template_axioms": [
+        "sorryAx",
+        "Classical.choice",
+        "propext"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Serde",
+      "required_declarations": 38,
+      "owned_declarations": 199,
+      "template_axioms": [
+        "sorryAx",
+        "propext",
+        "Classical.choice"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "SerdeJson",
+      "required_declarations": 11,
+      "owned_declarations": 91,
+      "template_axioms": [
+        "propext",
+        "sorryAx",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "SimPy",
+      "required_declarations": 37,
+      "owned_declarations": 243,
+      "template_axioms": [
+        "propext",
+        "sorryAx",
+        "Classical.choice"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "SmallVec",
+      "required_declarations": 11,
+      "owned_declarations": 28,
+      "template_axioms": [
+        "sorryAx",
+        "propext"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "SortedContainers",
+      "required_declarations": 25,
+      "owned_declarations": 75,
+      "template_axioms": [
+        "propext",
+        "sorryAx"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Sphinx",
+      "required_declarations": 38,
+      "owned_declarations": 467,
+      "template_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice",
+        "sorryAx"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "SqlParse",
+      "required_declarations": 42,
+      "owned_declarations": 383,
+      "template_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound",
+        "sorryAx"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Statsmodels",
+      "required_declarations": 32,
+      "owned_declarations": 98,
+      "template_axioms": [
+        "Classical.choice",
+        "propext",
+        "sorryAx"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Stb",
+      "required_declarations": 23,
+      "owned_declarations": 71,
+      "template_axioms": [
+        "sorryAx",
+        "propext"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Tabulate",
+      "required_declarations": 23,
+      "owned_declarations": 122,
+      "template_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice",
+        "sorryAx"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Tenacity",
+      "required_declarations": 28,
+      "owned_declarations": 230,
+      "template_axioms": [
+        "propext",
+        "sorryAx"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "TinyDB",
+      "required_declarations": 28,
+      "owned_declarations": 266,
+      "template_axioms": [
+        "sorryAx",
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "TinyExpr",
+      "required_declarations": 25,
+      "owned_declarations": 181,
+      "template_axioms": [
+        "propext",
+        "Classical.choice",
+        "sorryAx"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "TlsLite",
+      "required_declarations": 38,
+      "owned_declarations": 287,
+      "template_axioms": [
+        "sorryAx",
+        "propext"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Toolz",
+      "required_declarations": 13,
+      "owned_declarations": 13,
+      "template_axioms": [
+        "sorryAx"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Tornado",
+      "required_declarations": 28,
+      "owned_declarations": 165,
+      "template_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice",
+        "sorryAx"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Utf8Proc",
+      "required_declarations": 24,
+      "owned_declarations": 183,
+      "template_axioms": [
+        "propext",
+        "Quot.sound",
+        "sorryAx",
+        "Classical.choice"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Virtualenv",
+      "required_declarations": 59,
+      "owned_declarations": 466,
+      "template_axioms": [
+        "propext",
+        "sorryAx",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Voluptuous",
+      "required_declarations": 35,
+      "owned_declarations": 328,
+      "template_axioms": [
+        "Classical.choice",
+        "propext",
+        "Quot.sound",
+        "sorryAx"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Watchdog",
+      "required_declarations": 36,
+      "owned_declarations": 173,
+      "template_axioms": [
+        "propext",
+        "sorryAx"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "WcWidth",
+      "required_declarations": 25,
+      "owned_declarations": 56,
+      "template_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice",
+        "sorryAx"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Web3",
+      "required_declarations": 36,
+      "owned_declarations": 277,
+      "template_axioms": [
+        "propext",
+        "sorryAx",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Xarray",
+      "required_declarations": 41,
+      "owned_declarations": 121,
+      "template_axioms": [
+        "Classical.choice",
+        "sorryAx",
+        "propext"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "XxHash",
+      "required_declarations": 32,
+      "owned_declarations": 57,
+      "template_axioms": [
+        "propext",
+        "Quot.sound",
+        "sorryAx"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "YyJson",
+      "required_declarations": 21,
+      "owned_declarations": 161,
+      "template_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice",
+        "sorryAx"
+      ],
+      "status": "pass; template sorryAx expected"
+    },
+    {
+      "library": "Zstd",
+      "required_declarations": 15,
+      "owned_declarations": 37,
+      "template_axioms": [
+        "propext",
+        "sorryAx"
+      ],
+      "status": "pass; template sorryAx expected"
+    }
+  ],
+  "per_declaration_axioms": "not computed; whole owned-module transitive union is authoritative",
+  "fresh_tree_actual_library": "AhoCorasick compile and exact type fingerprint comparison passed; expected template sorryAx detected"
+}

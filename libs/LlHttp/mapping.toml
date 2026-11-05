@@ -1,0 +1,25 @@
+[meta]
+language = "c"
+repo = "https://github.com/nodejs/llhttp"
+package = "llhttp"
+version = ""
+test_cmd = "make test"
+mutation_cmd = ""
+
+# --- Function specs ---
+
+[[functions]]
+lean = "parseRequest"
+ref = "parse_request"
+description = "parseRequest"
+
+[[functions]]
+lean = "parseChunked"
+ref = "parse_chunked"
+description = "parseChunked"
+
+[[functions]]
+lean = "isKeepAlive"
+ref = "is_keep_alive"
+description = "isKeepAlive"
+

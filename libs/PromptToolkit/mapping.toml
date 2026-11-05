@@ -1,0 +1,37 @@
+[meta]
+language = "python"
+repo = "https://github.com/prompt-toolkit/python-prompt-toolkit"
+package = "prompt-toolkit"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=prompt_toolkit/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "Document.insertText"
+ref = "prompt_toolkit.Document.insert_text"
+description = "Document insertText"
+
+[[functions]]
+lean = "Document.backspace"
+ref = "prompt_toolkit.Document.backspace"
+description = "Document backspace"
+
+[[functions]]
+lean = "completeFromList"
+ref = "prompt_toolkit.complete_from_list"
+description = "completeFromList"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "insert_backspace_rel"
+chain = []
+description = "insert backspace"
+
+[[relational]]
+spec = "completion_application_rel"
+chain = []
+description = "completion application"
+

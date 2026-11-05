@@ -1,0 +1,25 @@
+[meta]
+language = "python"
+repo = "https://github.com/psf/requests"
+package = "requests"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=requests/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "parseContentType"
+ref = "requests.parse_content_type"
+description = "parseContentType"
+
+[[functions]]
+lean = "urlJoin"
+ref = "requests.url_join"
+description = "urlJoin"
+
+[[functions]]
+lean = "domainMatch"
+ref = "requests.domain_match"
+description = "domainMatch"
+

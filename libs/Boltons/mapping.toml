@@ -1,0 +1,52 @@
+[meta]
+language = "python"
+repo = "https://github.com/mahmoud/boltons"
+package = "boltons"
+version = "24.0.0"
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=boltons/iterutils.py"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "chunked"
+ref = "chunked"
+description = "chunked"
+
+[[functions]]
+lean = "flatten"
+ref = "flatten"
+description = "flatten"
+
+[[functions]]
+lean = "unique"
+ref = "unique"
+description = "unique"
+
+[[functions]]
+lean = "LRUCache.get"
+ref = "LRUCache.get"
+description = "LRUCache get"
+
+[[functions]]
+lean = "LRUCache.put"
+ref = "LRUCache.put"
+description = "LRUCache put"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "chunked_flatten_roundtrip_rel"
+chain = []
+description = "chunked flatten roundtrip"
+
+[[relational]]
+spec = "unique_idempotent_rel"
+chain = []
+description = "unique idempotent"
+
+[[relational]]
+spec = "LRUCache.get_after_put_rel"
+chain = []
+description = "LRUCache.get after put"
+

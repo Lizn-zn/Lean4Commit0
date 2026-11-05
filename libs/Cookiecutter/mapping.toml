@@ -1,0 +1,52 @@
+[meta]
+language = "python"
+repo = "https://github.com/cookiecutter/cookiecutter"
+package = "cookiecutter"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=cookiecutter/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "VarValue.asString"
+ref = "cookiecutter.VarValue.as_string"
+description = "VarValue asString"
+
+[[functions]]
+lean = "hasTemplateSyntax"
+ref = "cookiecutter.has_template_syntax"
+description = "hasTemplateSyntax"
+
+[[functions]]
+lean = "tokenizeTemplate"
+ref = "cookiecutter.tokenize_template"
+description = "tokenizeTemplate"
+
+[[functions]]
+lean = "renderTemplate"
+ref = "cookiecutter.render_template"
+description = "renderTemplate"
+
+[[functions]]
+lean = "buildContext"
+ref = "cookiecutter.build_context"
+description = "buildContext"
+
+[[functions]]
+lean = "renderTokens"
+ref = "cookiecutter.render_tokens"
+description = "renderTokens"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "renderTemplate_novar_rel"
+chain = []
+description = "renderTemplate novar"
+
+[[relational]]
+spec = "tokenize_render_roundtrip_plain_rel"
+chain = []
+description = "tokenize render roundtrip plain"
+

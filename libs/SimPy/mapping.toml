@@ -1,0 +1,30 @@
+[meta]
+language = "python"
+repo = ""
+package = "simpy"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=simpy/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "Resource.count"
+ref = "simpy.Resource.count"
+description = "Resource count"
+
+[[functions]]
+lean = "Environment.step"
+ref = "simpy.Environment.step"
+description = "Environment step"
+
+[[functions]]
+lean = "Environment.schedule"
+ref = "simpy.Environment.schedule"
+description = "Environment schedule"
+
+[[functions]]
+lean = "Resource.request"
+ref = "simpy.Resource.request"
+description = "Resource request"
+

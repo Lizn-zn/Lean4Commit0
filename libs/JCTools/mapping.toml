@@ -1,0 +1,52 @@
+[meta]
+language = "java"
+repo = "https://github.com/JCTools/JCTools"
+package = "org.jctools:jctools-core"
+version = ""
+test_cmd = "mvn test"
+mutation_cmd = ""
+
+# --- Function specs ---
+
+[[functions]]
+lean = "SpscQueue.new"
+ref = "JCTools.SpscQueue.new"
+description = "SpscQueue new"
+
+[[functions]]
+lean = "SpscQueue.offer"
+ref = "JCTools.SpscQueue.offer"
+description = "SpscQueue offer"
+
+[[functions]]
+lean = "SpscQueue.poll"
+ref = "JCTools.SpscQueue.poll"
+description = "SpscQueue poll"
+
+[[functions]]
+lean = "SpscQueue.drain"
+ref = "JCTools.SpscQueue.drain"
+description = "SpscQueue drain"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "SpscQueue.offer_poll_roundtrip_rel"
+chain = []
+description = "SpscQueue.offer poll roundtrip"
+
+[[relational]]
+spec = "SpscQueue.bounded_rejects_rel"
+chain = []
+description = "SpscQueue.bounded rejects"
+
+[[relational]]
+spec = "SpscQueue.fifo_ordering_rel"
+chain = []
+description = "SpscQueue.fifo ordering"
+
+[[relational]]
+spec = "SpscQueue.poll_after_offer_rel"
+chain = []
+description = "SpscQueue.poll after offer"
+

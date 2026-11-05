@@ -1,0 +1,25 @@
+[meta]
+language = "rust"
+repo = "https://github.com/maciejhirsz/logos"
+package = "logos"
+version = ""
+test_cmd = "cargo test"
+mutation_cmd = "cargo mutants"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "matchPattern"
+ref = "logos::match_pattern"
+description = "matchPattern"
+
+[[functions]]
+lean = "nextToken"
+ref = "logos::next_token"
+description = "nextToken"
+
+[[functions]]
+lean = "tokenize"
+ref = "logos::tokenize"
+description = "tokenize"
+

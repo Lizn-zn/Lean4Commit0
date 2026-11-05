@@ -1,0 +1,42 @@
+[meta]
+language = "python"
+repo = "https://github.com/jquast/wcwidth"
+package = "wcwidth"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=wcwidth/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "classify"
+ref = "wcwidth.classify"
+description = "classify"
+
+[[functions]]
+lean = "wcwidth"
+ref = "wcwidth.wcwidth"
+description = "wcwidth"
+
+[[functions]]
+lean = "wcswidth"
+ref = "wcwidth.wcswidth"
+description = "wcswidth"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "wcwidth_classify_rel"
+chain = []
+description = "wcwidth classify"
+
+[[relational]]
+spec = "wcswidth_singleton_rel"
+chain = []
+description = "wcswidth singleton"
+
+[[relational]]
+spec = "wcswidth_append_rel"
+chain = []
+description = "wcswidth append"
+

@@ -1,0 +1,32 @@
+[meta]
+language = "python"
+repo = "https://github.com/Delgan/loguru"
+package = "loguru"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=loguru/"
+
+# --- Function specs ---
+
+[[functions]]
+lean = "matchesFilter"
+ref = "loguru.matches_filter"
+description = "matchesFilter"
+
+[[functions]]
+lean = "renderFormat"
+ref = "loguru.render_format"
+description = "renderFormat"
+
+[[functions]]
+lean = "processRecord"
+ref = "loguru.process_record"
+description = "processRecord"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "matchesFilter_monotone_rel"
+chain = []
+description = "matchesFilter monotone"
+

@@ -1,0 +1,24 @@
+[meta]
+language = "python"
+repo = "https://github.com/rthalley/dnspython"
+package = "dnspython"
+version = ""
+test_cmd = "pytest tests/"
+mutation_cmd = "mutmut run --paths-to-mutate=dnspython/"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "ResourceRecord.wireFormat_roundtrip_rel"
+chain = []
+description = "ResourceRecord.wireFormat roundtrip with byte-level constraints"
+
+[[relational]]
+spec = "Message.wireFormat_roundtrip_rel"
+chain = []
+description = "Complete DNS message wire format roundtrip"
+
+[[relational]]
+spec = "zoneFile_roundtrip_rel"
+chain = []
+description = "Zone file render/parse roundtrip"

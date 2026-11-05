@@ -1,0 +1,47 @@
+[meta]
+language = "java"
+repo = "https://github.com/immutables/immutables"
+package = "org.immutables:value"
+version = ""
+test_cmd = "mvn test"
+mutation_cmd = ""
+
+# --- Function specs ---
+
+[[functions]]
+lean = "ImmutableList.sorted"
+ref = "immutables.ImmutableList.sorted"
+description = "ImmutableList sorted"
+
+[[functions]]
+lean = "ImmutableSet.contains"
+ref = "immutables.ImmutableSet.contains"
+description = "ImmutableSet contains"
+
+[[functions]]
+lean = "ImmutableSet.union"
+ref = "immutables.ImmutableSet.union"
+description = "ImmutableSet union"
+
+[[functions]]
+lean = "ImmutableMap.containsKey"
+ref = "immutables.ImmutableMap.containsKey"
+description = "ImmutableMap containsKey"
+
+[[functions]]
+lean = "ImmutableMap.get"
+ref = "immutables.ImmutableMap.get"
+description = "ImmutableMap get"
+
+# --- Relational specs ---
+
+[[relational]]
+spec = "ImmutableSet.union_contains_rel"
+chain = []
+description = "ImmutableSet.union contains"
+
+[[relational]]
+spec = "ImmutableMap.containsKey_get_rel"
+chain = []
+description = "ImmutableMap.containsKey get"
+
