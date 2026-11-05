@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 set -euo pipefail
 script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-exec python3 "${script_dir}/../../check_solution.py" --library Logos --integrity-only "$@"
+exec python3 "${script_dir}/../../tools/check_solution.py" --library Logos --integrity-only "$@"

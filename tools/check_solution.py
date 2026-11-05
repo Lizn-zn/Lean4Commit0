@@ -7,7 +7,10 @@ import argparse,hashlib,json,re,subprocess,sys,tempfile,os,shutil,contextlib
 from pathlib import Path
 
 
-from .lean_lex import scrub,lexical_spans
+if __package__:
+    from .lean_lex import lexical_spans, scrub
+else:
+    from lean_lex import lexical_spans, scrub
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -67,7 +70,7 @@ def main():
     mode.add_argument('--scan-only','--cheats-only',dest='scan_only',action='store_true')
     mode.add_argument('--compile-only','--compile',dest='compile_only',action='store_true')
     mode.add_argument('--mechanical-only',action='store_true',help='Return 0 for partial screening plus compilation; never a solved-task verdict')
-    a=parser.parse_args();root=a.root.resolve();base=a.baseline or root/'INTEGRITY_BASELINE.json'
+    a=parser.parse_args();root=a.root.resolve();base=a.baseline or root/'tools/INTEGRITY_BASELINE.json'
     if not re.fullmatch(r'[A-Za-z][A-Za-z0-9]*',a.library):parser.error('Invalid library name')
     lib=root/'libs'/a.library
     if not lib.is_dir():parser.error('Library directory missing')
