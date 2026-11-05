@@ -1,114 +1,114 @@
-# Task list and current validation
+# Tasks
 
-108 library-level tasks. All placeholders are assigned editable obligations. Template build/audit success is not a solution or a global consistency proof. Per-library semantic coverage, historical severity and repair details are in LIBRARY_REVIEW.json.
+Each library is one task. Select a library below to open its instructions.
 
-| Library | Lean files | Implementation | Proof | Target build | Declaration baseline |
-|---|---:|---:|---:|---|---|
-| AhoCorasick | 6 | 4 | 3 | pass | pass |
-| Arrow | 8 | 4 | 7 | pass | pass |
-| Attrs | 6 | 3 | 5 | pass | pass |
-| Babel | 6 | 4 | 6 | pass | pass |
-| BitString | 6 | 3 | 3 | pass | pass |
-| Blake3 | 6 | 8 | 3 | pass | pass |
-| Boltons | 10 | 5 | 8 | pass | pass |
-| Bytes | 7 | 6 | 6 | pass | pass |
-| CJSON | 8 | 5 | 5 | pass | pass |
-| CacheTools | 9 | 11 | 6 | pass | pass |
-| Caffeine | 8 | 6 | 8 | pass | pass |
-| Chardet | 8 | 3 | 5 | pass | pass |
-| Clap | 8 | 5 | 5 | pass | pass |
-| Click | 8 | 4 | 7 | pass | pass |
-| CommonsLang | 7 | 3 | 4 | pass | pass |
-| Cookiecutter | 8 | 6 | 8 | pass | pass |
-| Crossbeam | 8 | 8 | 5 | pass | pass |
-| DashMap | 8 | 4 | 8 | pass | pass |
-| Deprecated | 8 | 3 | 4 | pass | pass |
-| Disruptor | 9 | 3 | 6 | pass | pass |
-| DnsPython | 7 | 13 | 3 | pass | pass |
-| Dulwich | 9 | 3 | 4 | pass | pass |
-| Fabric | 8 | 4 | 7 | pass | pass |
-| FastApi | 7 | 3 | 3 | pass | pass |
-| FilesystemSpec | 8 | 7 | 4 | pass | pass |
-| Flask | 8 | 4 | 5 | pass | pass |
-| FlatBuffers | 7 | 4 | 5 | pass | pass |
-| Geopandas | 8 | 9 | 5 | pass | pass |
-| Graphene | 7 | 8 | 3 | pass | pass |
-| Gson | 8 | 4 | 5 | pass | pass |
-| Hashbrown | 7 | 12 | 5 | pass | pass |
-| ImapClient | 8 | 6 | 6 | pass | pass |
-| ImbalancedLearn | 8 | 5 | 5 | pass | pass |
-| Immutables | 8 | 5 | 7 | pass | pass |
-| JCTools | 8 | 4 | 8 | pass | pass |
-| JacksonCore | 8 | 9 | 4 | pass | pass |
-| Jedi | 7 | 3 | 3 | pass | pass |
-| Jinja | 7 | 8 | 3 | pass | pass |
-| Joblib | 8 | 6 | 5 | pass | pass |
-| JodaTime | 9 | 5 | 6 | pass | pass |
-| Jsoup | 8 | 5 | 4 | pass | pass |
-| Kryo | 9 | 3 | 4 | pass | pass |
-| LlHttp | 7 | 3 | 3 | pass | pass |
-| Logos | 7 | 3 | 3 | pass | pass |
-| Loguru | 8 | 3 | 4 | pass | pass |
-| Lz4 | 9 | 3 | 5 | pass | pass |
-| Marshmallow | 8 | 3 | 6 | pass | pass |
-| Memchr | 8 | 3 | 4 | pass | pass |
-| MicroEcc | 9 | 5 | 6 | pass | pass |
-| Mimesis | 6 | 3 | 3 | pass | pass |
-| MiniTorch | 8 | 9 | 5 | pass | pass |
-| Miniz | 8 | 4 | 6 | pass | pass |
-| MoreItertools | 5 | 3 | 3 | pass | pass |
-| MoviePy | 7 | 3 | 4 | pass | pass |
-| NetworkX | 8 | 6 | 6 | pass | pass |
-| Nom | 6 | 3 | 3 | pass | pass |
-| Orjson | 8 | 3 | 5 | pass | pass |
-| Paramiko | 6 | 3 | 3 | pass | pass |
-| Parsel | 7 | 5 | 4 | pass | pass |
-| Pest | 6 | 3 | 3 | pass | pass |
-| Pexpect | 7 | 4 | 4 | pass | pass |
-| Picocli | 8 | 4 | 4 | pass | pass |
-| Portalocker | 8 | 7 | 10 | pass | pass |
-| ProgressBar | 7 | 4 | 3 | pass | pass |
-| PromptToolkit | 7 | 3 | 5 | pass | pass |
-| PyBoy | 8 | 5 | 4 | pass | pass |
-| PyJWT | 10 | 7 | 7 | pass | pass |
-| Pydantic | 7 | 4 | 4 | pass | pass |
-| Pylint | 6 | 3 | 3 | pass | pass |
-| Pypdf | 7 | 3 | 3 | pass | pass |
-| Pytest | 6 | 3 | 3 | pass | pass |
-| PythonRsa | 10 | 8 | 5 | pass | pass |
-| QrCodeGen | 9 | 3 | 4 | pass | pass |
-| RapidJson | 7 | 3 | 4 | pass | pass |
-| Rayon | 9 | 5 | 7 | pass | pass |
-| Re2 | 7 | 4 | 5 | pass | pass |
-| Regex | 8 | 4 | 4 | pass | pass |
-| Requests | 7 | 3 | 3 | pass | pass |
-| RustItertools | 6 | 3 | 3 | pass | pass |
-| Schedule | 7 | 3 | 3 | pass | pass |
-| Scrapy | 7 | 9 | 3 | pass | pass |
-| Seaborn | 7 | 4 | 3 | pass | pass |
-| Serde | 8 | 11 | 7 | pass | pass |
-| SerdeJson | 7 | 3 | 2 | pass | pass |
-| SimPy | 8 | 4 | 7 | pass | pass |
-| SmallVec | 6 | 3 | 3 | pass | pass |
-| SortedContainers | 8 | 6 | 6 | pass | pass |
-| Sphinx | 6 | 3 | 3 | pass | pass |
-| SqlParse | 8 | 4 | 5 | pass | pass |
-| Statsmodels | 7 | 3 | 5 | pass | pass |
-| Stb | 8 | 4 | 5 | pass | pass |
-| Tabulate | 7 | 3 | 5 | pass | pass |
-| Tenacity | 7 | 4 | 7 | pass | pass |
-| TinyDB | 7 | 5 | 8 | pass | pass |
-| TinyExpr | 6 | 3 | 6 | pass | pass |
-| TlsLite | 7 | 4 | 4 | pass | pass |
-| Toolz | 5 | 3 | 5 | pass | pass |
-| Tornado | 6 | 5 | 4 | pass | pass |
-| Utf8Proc | 7 | 4 | 6 | pass | pass |
-| Virtualenv | 7 | 7 | 4 | pass | pass |
-| Voluptuous | 5 | 2 | 4 | pass | pass |
-| Watchdog | 8 | 6 | 5 | pass | pass |
-| WcWidth | 7 | 3 | 6 | pass | pass |
-| Web3 | 8 | 8 | 7 | pass | pass |
-| Xarray | 10 | 8 | 9 | pass | pass |
-| XxHash | 6 | 6 | 4 | pass | pass |
-| YyJson | 6 | 3 | 4 | pass | pass |
-| Zstd | 7 | 4 | 4 | pass | pass |
+| Library | Implementation obligations | Proof obligations |
+|---|---:|---:|
+| [AhoCorasick](libs/AhoCorasick/Instruction.md) | 4 | 3 |
+| [Arrow](libs/Arrow/Instruction.md) | 4 | 7 |
+| [Attrs](libs/Attrs/Instruction.md) | 3 | 5 |
+| [Babel](libs/Babel/Instruction.md) | 4 | 6 |
+| [BitString](libs/BitString/Instruction.md) | 3 | 3 |
+| [Blake3](libs/Blake3/Instruction.md) | 8 | 3 |
+| [Boltons](libs/Boltons/Instruction.md) | 5 | 8 |
+| [Bytes](libs/Bytes/Instruction.md) | 6 | 6 |
+| [CJSON](libs/CJSON/Instruction.md) | 5 | 5 |
+| [CacheTools](libs/CacheTools/Instruction.md) | 11 | 6 |
+| [Caffeine](libs/Caffeine/Instruction.md) | 6 | 8 |
+| [Chardet](libs/Chardet/Instruction.md) | 3 | 5 |
+| [Clap](libs/Clap/Instruction.md) | 5 | 5 |
+| [Click](libs/Click/Instruction.md) | 4 | 7 |
+| [CommonsLang](libs/CommonsLang/Instruction.md) | 3 | 4 |
+| [Cookiecutter](libs/Cookiecutter/Instruction.md) | 6 | 8 |
+| [Crossbeam](libs/Crossbeam/Instruction.md) | 8 | 5 |
+| [DashMap](libs/DashMap/Instruction.md) | 4 | 8 |
+| [Deprecated](libs/Deprecated/Instruction.md) | 3 | 4 |
+| [Disruptor](libs/Disruptor/Instruction.md) | 3 | 6 |
+| [DnsPython](libs/DnsPython/Instruction.md) | 13 | 3 |
+| [Dulwich](libs/Dulwich/Instruction.md) | 3 | 4 |
+| [Fabric](libs/Fabric/Instruction.md) | 4 | 7 |
+| [FastApi](libs/FastApi/Instruction.md) | 3 | 3 |
+| [FilesystemSpec](libs/FilesystemSpec/Instruction.md) | 7 | 4 |
+| [Flask](libs/Flask/Instruction.md) | 4 | 5 |
+| [FlatBuffers](libs/FlatBuffers/Instruction.md) | 4 | 5 |
+| [Geopandas](libs/Geopandas/Instruction.md) | 9 | 5 |
+| [Graphene](libs/Graphene/Instruction.md) | 8 | 3 |
+| [Gson](libs/Gson/Instruction.md) | 4 | 5 |
+| [Hashbrown](libs/Hashbrown/Instruction.md) | 12 | 5 |
+| [ImapClient](libs/ImapClient/Instruction.md) | 6 | 6 |
+| [ImbalancedLearn](libs/ImbalancedLearn/Instruction.md) | 5 | 5 |
+| [Immutables](libs/Immutables/Instruction.md) | 5 | 7 |
+| [JCTools](libs/JCTools/Instruction.md) | 4 | 8 |
+| [JacksonCore](libs/JacksonCore/Instruction.md) | 9 | 4 |
+| [Jedi](libs/Jedi/Instruction.md) | 3 | 3 |
+| [Jinja](libs/Jinja/Instruction.md) | 8 | 3 |
+| [Joblib](libs/Joblib/Instruction.md) | 6 | 5 |
+| [JodaTime](libs/JodaTime/Instruction.md) | 5 | 6 |
+| [Jsoup](libs/Jsoup/Instruction.md) | 5 | 4 |
+| [Kryo](libs/Kryo/Instruction.md) | 3 | 4 |
+| [LlHttp](libs/LlHttp/Instruction.md) | 3 | 3 |
+| [Logos](libs/Logos/Instruction.md) | 3 | 3 |
+| [Loguru](libs/Loguru/Instruction.md) | 3 | 4 |
+| [Lz4](libs/Lz4/Instruction.md) | 3 | 5 |
+| [Marshmallow](libs/Marshmallow/Instruction.md) | 3 | 6 |
+| [Memchr](libs/Memchr/Instruction.md) | 3 | 4 |
+| [MicroEcc](libs/MicroEcc/Instruction.md) | 5 | 6 |
+| [Mimesis](libs/Mimesis/Instruction.md) | 3 | 3 |
+| [MiniTorch](libs/MiniTorch/Instruction.md) | 9 | 5 |
+| [Miniz](libs/Miniz/Instruction.md) | 4 | 6 |
+| [MoreItertools](libs/MoreItertools/Instruction.md) | 3 | 3 |
+| [MoviePy](libs/MoviePy/Instruction.md) | 3 | 4 |
+| [NetworkX](libs/NetworkX/Instruction.md) | 6 | 6 |
+| [Nom](libs/Nom/Instruction.md) | 3 | 3 |
+| [Orjson](libs/Orjson/Instruction.md) | 3 | 5 |
+| [Paramiko](libs/Paramiko/Instruction.md) | 3 | 3 |
+| [Parsel](libs/Parsel/Instruction.md) | 5 | 4 |
+| [Pest](libs/Pest/Instruction.md) | 3 | 3 |
+| [Pexpect](libs/Pexpect/Instruction.md) | 4 | 4 |
+| [Picocli](libs/Picocli/Instruction.md) | 4 | 4 |
+| [Portalocker](libs/Portalocker/Instruction.md) | 7 | 10 |
+| [ProgressBar](libs/ProgressBar/Instruction.md) | 4 | 3 |
+| [PromptToolkit](libs/PromptToolkit/Instruction.md) | 3 | 5 |
+| [PyBoy](libs/PyBoy/Instruction.md) | 5 | 4 |
+| [PyJWT](libs/PyJWT/Instruction.md) | 7 | 7 |
+| [Pydantic](libs/Pydantic/Instruction.md) | 4 | 4 |
+| [Pylint](libs/Pylint/Instruction.md) | 3 | 3 |
+| [Pypdf](libs/Pypdf/Instruction.md) | 3 | 3 |
+| [Pytest](libs/Pytest/Instruction.md) | 3 | 3 |
+| [PythonRsa](libs/PythonRsa/Instruction.md) | 8 | 5 |
+| [QrCodeGen](libs/QrCodeGen/Instruction.md) | 3 | 4 |
+| [RapidJson](libs/RapidJson/Instruction.md) | 3 | 4 |
+| [Rayon](libs/Rayon/Instruction.md) | 5 | 7 |
+| [Re2](libs/Re2/Instruction.md) | 4 | 5 |
+| [Regex](libs/Regex/Instruction.md) | 4 | 4 |
+| [Requests](libs/Requests/Instruction.md) | 3 | 3 |
+| [RustItertools](libs/RustItertools/Instruction.md) | 3 | 3 |
+| [Schedule](libs/Schedule/Instruction.md) | 3 | 3 |
+| [Scrapy](libs/Scrapy/Instruction.md) | 9 | 3 |
+| [Seaborn](libs/Seaborn/Instruction.md) | 4 | 3 |
+| [Serde](libs/Serde/Instruction.md) | 11 | 7 |
+| [SerdeJson](libs/SerdeJson/Instruction.md) | 3 | 2 |
+| [SimPy](libs/SimPy/Instruction.md) | 4 | 7 |
+| [SmallVec](libs/SmallVec/Instruction.md) | 3 | 3 |
+| [SortedContainers](libs/SortedContainers/Instruction.md) | 6 | 6 |
+| [Sphinx](libs/Sphinx/Instruction.md) | 3 | 3 |
+| [SqlParse](libs/SqlParse/Instruction.md) | 4 | 5 |
+| [Statsmodels](libs/Statsmodels/Instruction.md) | 3 | 5 |
+| [Stb](libs/Stb/Instruction.md) | 4 | 5 |
+| [Tabulate](libs/Tabulate/Instruction.md) | 3 | 5 |
+| [Tenacity](libs/Tenacity/Instruction.md) | 4 | 7 |
+| [TinyDB](libs/TinyDB/Instruction.md) | 5 | 8 |
+| [TinyExpr](libs/TinyExpr/Instruction.md) | 3 | 6 |
+| [TlsLite](libs/TlsLite/Instruction.md) | 4 | 4 |
+| [Toolz](libs/Toolz/Instruction.md) | 3 | 5 |
+| [Tornado](libs/Tornado/Instruction.md) | 5 | 4 |
+| [Utf8Proc](libs/Utf8Proc/Instruction.md) | 4 | 6 |
+| [Virtualenv](libs/Virtualenv/Instruction.md) | 7 | 4 |
+| [Voluptuous](libs/Voluptuous/Instruction.md) | 2 | 4 |
+| [Watchdog](libs/Watchdog/Instruction.md) | 6 | 5 |
+| [WcWidth](libs/WcWidth/Instruction.md) | 3 | 6 |
+| [Web3](libs/Web3/Instruction.md) | 8 | 7 |
+| [Xarray](libs/Xarray/Instruction.md) | 8 | 9 |
+| [XxHash](libs/XxHash/Instruction.md) | 6 | 4 |
+| [YyJson](libs/YyJson/Instruction.md) | 3 | 4 |
+| [Zstd](libs/Zstd/Instruction.md) | 4 | 4 |

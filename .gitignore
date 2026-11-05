@@ -3,3 +3,10 @@ __pycache__/
 *.pyc
 .DS_Store
 .venv/
+
+# Locally generated reports
+/build-report.json
+/build-report-logs/
+/template-build-report.json
+/template-build-report-logs/
+/TASK_INVENTORY.json
