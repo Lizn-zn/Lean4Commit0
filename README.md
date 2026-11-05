@@ -1,6 +1,6 @@
 # Lean4Commit0
 
-108 library-level Lean tasks. Complete the implementations and prove their contracts, including properties that relate several APIs. This repository contains the revised v3 benchmark. The [P³ paper](https://arxiv.org/abs/2608.09277) reports experiments on the original version. See the [version notes](docs/REVISION_NOTES.md).
+108 library-level Lean tasks. Complete the implementations and prove their contracts, including properties that relate several APIs. Read the [P³ paper](https://arxiv.org/abs/2608.09277) for the research behind the benchmark.
 
 ## Run one task
 
@@ -27,6 +27,6 @@ A template build permits unfinished `sorry` placeholders. The solution checker r
 |---|---|
 | [`libs/`](libs/) | Task sources, per-library instructions, and shared Lean definitions. Start with the [task index](docs/TASKS.md). |
 | [`tools/`](tools/) | Build and solution-checking commands, the inventory generator, the integrity baseline, and the Lean declaration auditor. |
-| [`docs/`](docs/) | [Evaluation guide](docs/EVALUATION.md), [model scope](docs/MODEL_LIMITS.md), and [version notes](docs/REVISION_NOTES.md). |
+| [`docs/`](docs/) | [Evaluation guide](docs/EVALUATION.md) and [model scope](docs/MODEL_LIMITS.md). |
 
-Original benchmark material uses the [MIT license](LICENSE). See the [license scope](docs/LICENSE_SCOPE.md).
+The benchmark code and documentation use the [MIT license](LICENSE). See the [license scope](docs/LICENSE_SCOPE.md).
