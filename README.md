@@ -28,6 +28,5 @@ A template build permits unfinished `sorry` placeholders. The solution checker r
 | [`libs/`](libs/) | Task sources, per-library instructions, and shared Lean definitions. Start with the [task index](docs/TASKS.md). |
 | [`tools/`](tools/) | Build and solution-checking commands, the inventory generator, the integrity baseline, and the Lean declaration auditor. |
 | [`docs/`](docs/) | [Evaluation guide](docs/EVALUATION.md), [model scope](docs/MODEL_LIMITS.md), and [version notes](docs/REVISION_NOTES.md). |
-| [`licenses/`](licenses/) | Third-party license and attribution notices. |
 
 Original benchmark material uses the [MIT license](LICENSE). See the [license scope](docs/LICENSE_SCOPE.md).
