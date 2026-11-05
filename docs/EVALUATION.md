@@ -21,15 +21,15 @@ python3 -m tools.check_solution --library Memchr
 
 The default checker authenticates protected source, compiles the library in a fresh tree, checks required declarations and their types, and audits transitive axioms. Exit code 0 is a passing library verdict. The diagnostic modes `--integrity-only`, `--compile-only`, `--scan-only`, and `--mechanical-only` report partial checks. Use `--help` for the full command options.
 
-The existing root commands `python3 check_templates.py`, `python3 check_solution.py`, and `python3 inventory.py` remain available as launchers. The per-library `check.sh` and `check_hash.sh` commands use the same checker.
+The per-library `check.sh` and `check_hash.sh` scripts run solution verification and source integrity checks, respectively. To regenerate the task inventory, run `python3 -m tools.inventory`.
 
 ## Check an external submission
 
 Invoke the checker from a trusted benchmark checkout, with the trusted baseline and an evaluator-owned dependency cache. Run untrusted submissions inside an operating-system sandbox.
 
 ```sh
-python3 /trusted/Lean4Commit0/check_solution.py --root /candidate \
-  --baseline /trusted/Lean4Commit0/INTEGRITY_BASELINE.json \
+python3 /trusted/Lean4Commit0/tools/check_solution.py --root /candidate \
+  --baseline /trusted/Lean4Commit0/tools/INTEGRITY_BASELINE.json \
   --trusted-dependencies /trusted/Lean4Commit0/.lake/packages \
   --library Memchr
 ```
